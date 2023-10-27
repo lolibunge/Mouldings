@@ -1,0 +1,41 @@
+/*********************** Custom CSS for Boost AI Search & Discovery  ************************/
+@media screen and (max-width: 719px) {
+  .boost-sd__product-label--customLabelByTag {
+    display: none;
+  }
+}
+
+.boost-sd__product-label--sale {
+  width: 100%;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boost-sd__product-image-column--right {
+    top: -29px!important;
+    position: relative;
+}
+
+/* Start boost 199670 */
+.boost-sd__product-image-column--right .boost-sd__product-label-text {
+  font-weight: 800;
+}
+
+@media screen and (max-width: 719px) {
+  .boost-sd__product-image {
+    min-height: 180px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .boost-sd__product-sku {
+    display: none;
+  }
+}
+.boost-sd__product-sku {
+  font-weight: 600;
+  color: red;
+  font-size: 16px;
+}
+/* End boost 199670 */

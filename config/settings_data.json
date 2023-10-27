@@ -1,0 +1,3570 @@
+{
+  "current": {
+    "color_background": "#ffffff",
+    "color_headings": "#000000",
+    "color_text": "#000000",
+    "color_text_light": "#464646",
+    "color_links": "#494d41",
+    "color_button_background": "#626a81",
+    "color_button_text": "#ffffff",
+    "color_button_secondary_background": "#ffffff",
+    "color_button_secondary_text": "#000000",
+    "color_button_secondary_border": "#000000",
+    "color_header_background": "#ffffff",
+    "color_header_text": "#000000",
+    "color_input_text": "#4d4d4d",
+    "color_input_background": "#ffffff",
+    "color_input_border": "#000000",
+    "color_product_sale_accent": "#dd1d1d",
+    "color_product_review_star": "#000000",
+    "color_footer_background": "#ffffff",
+    "color_footer_text": "#000000",
+    "color_overlay": "#000000",
+    "overlay_opacity": 50,
+    "type_size_base": 16,
+    "type_heading": "open_sans_n4",
+    "type_heading_size": "1.2",
+    "type_heading_capitalize": true,
+    "type_heading_spacing": 0,
+    "type_body": "open_sans_n4",
+    "type_menu": "open_sans_n4",
+    "type_menu_capitalize": true,
+    "type_menu_spacing": 0,
+    "type_button": "open_sans_n4",
+    "type_button_capitalize": false,
+    "type_button_spacing": 0,
+    "type_section": "open_sans_n4",
+    "type_section_capitalize": false,
+    "type_section_spacing": 0,
+    "reduce_animations": true,
+    "layout_max_width": 1400,
+    "product_sales_badge": true,
+    "product_sales_badge_style": "text",
+    "product_option_style": "select",
+    "swatches_enable": false,
+    "swatches_product_card_size": 32,
+    "swatches_product_page_size": 64,
+    "swatches_swatch_trigger": "Color",
+    "swatches_shape": "square",
+    "swatches_option_style": "variant_image",
+    "swatches_custom_colors": "",
+    "product_show_vendor": true,
+    "product_ratings_star_display": true,
+    "product_grid_emphasize_price": true,
+    "product_grid_show_atc": "always",
+    "product_grid_show_second_image": true,
+    "product_grid_image_style": "natural",
+    "product_grid_image_crop": true,
+    "enable_product_compare": true,
+    "social_email": "marketing@mouldings.com",
+    "social_facebook": "https:\/\/www.facebook.com\/mouldingscorbelsandmore",
+    "social_instagram": "https:\/\/www.instagram.com\/mouldingsandmore\/",
+    "social_linkedin": "",
+    "social_pinterest": "https:\/\/www.pinterest.com\/buymouldings\/_shop\/",
+    "social_tumblr": "",
+    "social_twitter": "https:\/\/twitter.com\/MouldingsMore",
+    "social_vimeo": "",
+    "social_youtube": "",
+    "enable_checkout_lock_icon": true,
+    "continue_shopping_url": "https:\/\/mouldings.com\/pages\/shop-by-brand",
+    "continue_url_cart": true,
+    "continue_url_404": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/mouldings_logo.png",
+    "checkout_accent_color": "#626a81",
+    "checkout_button_color": "#626a81",
+    "product_show_sku": true,
+    "product_social_sharing": true,
+    "product_ratings_reviews": false,
+    "product_grid_show_quickshop": "disabled",
+    "quickshop_select_first_available_variant": true,
+    "quickshop_show_dcb": false,
+    "quickshop_product_cart_redirect": false,
+    "quickshop_gallery_image_crop": true,
+    "quickshop_gallery_thumbnail_position": "below",
+    "quickshop_gallery_video_autoplay": false,
+    "quickshop_gallery_video_looping": false,
+    "product_enable_recently_viewed_products": true,
+    "product_slideshow_style": "natural",
+    "gallery_thumbnail_position": "below",
+    "enable_image_zoom": false,
+    "image_zoom_level": "min",
+    "product_grid_quick_shop": true,
+    "product_grid_quick_buy": true,
+    "social_google": "",
+    "show_dcb": false,
+    "product_grid_quick_look": true,
+    "font_body": "Google_Lato_400,400i,700,700i",
+    "font_heading": "\"League Spartan\", sans-serif",
+    "quickshop_ratings": true,
+    "quickshop_redirect_to_cart": false,
+    "quickshop_sales_badge": true,
+    "quickshop_sales_badge_style": "percentile_save",
+    "quickshop_ratings_reviews": true,
+    "quickshop_enable_social_sharing": true,
+    "product_cart_redirect": false,
+    "show_breadcrumbs": true,
+    "quickshop_show_vendor": true,
+    "sections": {
+      "static-header": {
+        "type": "static-header",
+        "blocks": {
+          "1517255946962": {
+            "type": "meganav_images",
+            "settings": {
+              "meganav_trigger": "Brands",
+              "image_1": "shopify:\/\/shop_images\/BROWN_MEGA_MENU.png",
+              "text_1": "FREE DOMESTIC SHIPPING ON CARVINGS",
+              "link_1": "https:\/\/mouldings.com\/pages\/woodcarving",
+              "position_1": "last",
+              "size_1": "medium",
+              "image_2": "shopify:\/\/shop_images\/MEGA_MOULDINGS.png",
+              "text_2": "APPLY FOR A MILLWORK TRADE ACCOUNT",
+              "link_2": "https:\/\/mouldings.com\/pages\/trade-application",
+              "position_2": "last",
+              "size_2": "medium"
+            }
+          },
+          "ff9e6854-1318-4c95-a027-c4108d1e961d": {
+            "type": "meganav_images",
+            "settings": {
+              "meganav_trigger": "",
+              "text_1": "",
+              "link_1": "",
+              "position_1": "last",
+              "size_1": "medium",
+              "text_2": "",
+              "link_2": "",
+              "position_2": "first",
+              "size_2": "small"
+            }
+          }
+        },
+        "block_order": [
+          "1517255946962",
+          "ff9e6854-1318-4c95-a027-c4108d1e961d"
+        ],
+        "settings": {
+          "sticky_header": true,
+          "full_width_header": false,
+          "logo": "shopify:\/\/shop_images\/logo_c2250383-e6d0-4f93-9534-73806aff1506.png",
+          "logo_height": 100,
+          "logo_width": 250,
+          "filter_search_by": "disabled",
+          "enable_live_search": false,
+          "show_mobile_search_bar": false,
+          "enable_live_search_images": false,
+          "quick_links": "",
+          "menu": "mega-menu",
+          "secondary_menu": "",
+          "small_promo_heading": "Contact Us",
+          "small_promo_text": "<p>1-800-558-0119<\/p>",
+          "small_promo_text_mobile": "<p>1-800-558-0119 <\/p>",
+          "small_promo_link": "",
+          "small_promo_icon": "icon-cell-phone",
+          "cart_icon": "icon-bag"
+        }
+      },
+      "1520634789686": {
+        "type": "dynamic-featured-product",
+        "disabled": true,
+        "settings": {
+          "product": "",
+          "gallery_aspect_ratio": "natural",
+          "gallery_image_crop": false,
+          "gallery_thumbnail_position": "left",
+          "gallery_video_autoplay": false,
+          "gallery_video_looping": true,
+          "gallery_hover_zoom": "replace"
+        }
+      },
+      "static-blog": {
+        "type": "static-blog",
+        "settings": {
+          "show_rss_link": true,
+          "show_date": false,
+          "show_author": false,
+          "show_excerpt": true,
+          "featured_post": "news\/how-to-achieve-classical-harmony-throughout-a-space",
+          "posts_per_page_range": 12
+        }
+      },
+      "1493143038057": {
+        "type": "dynamic-promo-mosaic",
+        "blocks": {
+          "1493143583401": {
+            "type": "promotion",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/columns_banner.png",
+              "title": "New Products",
+              "text": "Tambour Panels, Floating Shelves, X-PANELS, Corbels, Columns and Bun Feet can be used alone or combined together to create larger scale details.",
+              "color": "#ffffff",
+              "block_link": "https:\/\/mouldings.com\/pages\/new-product-carvings",
+              "button_text": "View Collection",
+              "button_style": "primary",
+              "show_overlay": true,
+              "background": "#000000",
+              "opacity": 17
+            }
+          },
+          "1493143038057-0": {
+            "type": "promotion",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/hecolo-res-chambre-saopaolo-1.jpg",
+              "title": "Finium",
+              "text": "Decorative Wall Systems - Free Shipping + 10% OFF when you join our email list.",
+              "color": "#ffffff",
+              "block_link": "https:\/\/mouldings.com\/pages\/finiumfriendlywall",
+              "button_text": "View Collection",
+              "button_style": "primary",
+              "show_overlay": true,
+              "background": "rgba(0,0,0,0)",
+              "opacity": 41
+            }
+          },
+          "1493143038057-1": {
+            "type": "promotion",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ART_FOR_EVERYDAY_1000x_9eea1b93-09c7-486b-8135-6f42c11f8da5.jpg",
+              "title": "Art For Everyday",
+              "text": "Modern woodcarvings in multiple  sizes and wood species with FREE Shipping.",
+              "color": "#ffffff",
+              "block_link": "https:\/\/mouldings.com\/pages\/artforeverydayinc",
+              "button_text": "View Collection",
+              "button_style": "primary",
+              "show_overlay": true,
+              "background": "#000000",
+              "opacity": 30
+            }
+          },
+          "4ad13736-a947-4492-a458-aa063c214f22": {
+            "type": "promotion",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/tambour_panel.png",
+              "title": "TAMBOUR panel sale",
+              "text": "18% OFF TAMBOUR PANELS WHILE SUPPLIES LAST",
+              "color": "#fffdfd",
+              "block_link": "https:\/\/mouldings.com\/collections\/solid-wood-tambour-panel-collection",
+              "button_text": "View Collection",
+              "button_style": "primary",
+              "show_overlay": true,
+              "background": "",
+              "opacity": 21
+            }
+          },
+          "1493143038057-2": {
+            "type": "promotion",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/shutterstock_585182302.png",
+              "title": "Testimonials",
+              "text": "We believe the best testimonial of our products comes straight from the homeowners we have worked with in transforming their ideas into the interior of their dreams.",
+              "color": "#ffffff",
+              "block_link": "https:\/\/mouldings.com\/pages\/reviews-our-customers-speak-for-us",
+              "button_text": "Read Reviews",
+              "button_style": "primary",
+              "show_overlay": true,
+              "background": "#000000",
+              "opacity": 31
+            }
+          }
+        },
+        "block_order": [
+          "1493143583401",
+          "1493143038057-0",
+          "1493143038057-1",
+          "4ad13736-a947-4492-a458-aa063c214f22",
+          "1493143038057-2"
+        ],
+        "settings": {
+          "title": "",
+          "section_height": "small",
+          "text_alignment": "top-left",
+          "maintain_aspect_ratio": true,
+          "compress_blocks": true
+        }
+      },
+      "static-footer": {
+        "type": "static-footer",
+        "blocks": {
+          "0b3d2c36-928b-4214-bdb4-a8d27472bb70": {
+            "type": "rich_text",
+            "settings": {
+              "title": "WELCOME TO MOULDINGS, Corbels & mORE",
+              "text": "<p>We created this site for the trade design enthusiast and DIY hobbyist searching for an eclectic mix of beautiful products for their interior project. We offer competitive prices with <strong>FREE SHIPPING<\/strong> on all <a href=\"https:\/\/mouldings.com\/collections\/shop-all-hand-carved-elements\" title=\"https:\/\/mouldings.com\/collections\/shop-all-hand-carved-elements\">Wood Carvings<\/a> & <a href=\"https:\/\/mouldings.com\/collections\/shop-all-finium\" title=\"https:\/\/mouldings.com\/collections\/shop-all-finium\">FINIUM Decorative Wall Panels<\/a>. We love these products, and we think you will as well. <\/p>"
+            }
+          },
+          "static-footer-0": {
+            "type": "menu",
+            "settings": {
+              "menu": "footer-shop-now"
+            }
+          },
+          "1498182586280": {
+            "type": "menu",
+            "settings": {
+              "menu": "footer-my-account"
+            }
+          },
+          "1498182572847": {
+            "type": "menu",
+            "settings": {
+              "menu": "footer-customer-help"
+            }
+          },
+          "1493171899575": {
+            "type": "social_accounts",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "0b3d2c36-928b-4214-bdb4-a8d27472bb70",
+          "static-footer-0",
+          "1498182586280",
+          "1498182572847",
+          "1493171899575"
+        ],
+        "settings": {
+          "payment_icons": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "additional_menu": "footer"
+        }
+      },
+      "1493145778308": {
+        "type": "dynamic-promo-grid",
+        "blocks": {
+          "9277da70-592e-4d14-9d97-c94599d2e88a": {
+            "type": "promotion",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/radius_large_7bb14da5-65cf-4ca9-9281-cd9dc6d6cd78.jpg",
+              "title": "MDF Radius Corners",
+              "text": "Radius Corners are a cost-effective and versatile material that allows cabinet fabricators to include smooth, consistent radius corners.",
+              "color": "#ffffff",
+              "block_link": "https:\/\/mouldings.com\/collections\/radius-corners",
+              "button_text": "Shop Radius Corners",
+              "button_style": "secondary",
+              "show_overlay": true,
+              "background": "#000000",
+              "opacity": 32
+            }
+          },
+          "ea3e2541-5917-4d6e-a810-44a477e32117": {
+            "type": "promotion",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/212.png",
+              "title": "TAMBOUR PANELS",
+              "text": "Solid Wood Tambour Panels in Hard Maple, Paint Grade, Red Oak, Walnut, and White Oak for creating a modern and unique look.",
+              "color": "#ffffff",
+              "block_link": "https:\/\/mouldings.com\/collections\/solid-wood-tambour-panel-collection",
+              "button_text": "Shop Tambour Panels",
+              "button_style": "secondary",
+              "show_overlay": true,
+              "background": "#000000",
+              "opacity": 36
+            }
+          },
+          "1493145778308-0": {
+            "type": "promotion",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/urethane.jpg",
+              "title": "Urethane Medallions",
+              "text": "Medallions add dimension and texture and vintage charm with limitless designs to match every décor style.",
+              "color": "#ffffff",
+              "block_link": "https:\/\/mouldings.com\/pages\/medallions",
+              "button_text": "Shop Medallions",
+              "button_style": "secondary",
+              "show_overlay": true,
+              "background": "#1d1d1d",
+              "opacity": 50
+            }
+          },
+          "088c4496-9bd9-4845-bddc-936fea6faff1": {
+            "type": "promotion",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/panel_mould.jpg",
+              "title": "Corbels & Brackets",
+              "text": "Endless designs in multiple wood species and sizes. FREE Domestic Shipping and up to 35% OFF.",
+              "color": "#ffffff",
+              "block_link": "https:\/\/mouldings.com\/collections\/carved-corbels",
+              "button_text": "Shop Corbels and Brackets",
+              "button_style": "secondary",
+              "show_overlay": true,
+              "background": "#1d1d1d",
+              "opacity": 50
+            }
+          }
+        },
+        "block_order": [
+          "9277da70-592e-4d14-9d97-c94599d2e88a",
+          "ea3e2541-5917-4d6e-a810-44a477e32117",
+          "1493145778308-0",
+          "088c4496-9bd9-4845-bddc-936fea6faff1"
+        ],
+        "settings": {
+          "title": "Featured Product Categories",
+          "section_height": "medium",
+          "section_columns": 4,
+          "text_alignment": "top-left"
+        }
+      },
+      "static-collection": {
+        "type": "static-collection",
+        "blocks": {
+          "1498186879532": {
+            "type": "menu",
+            "settings": {
+              "menu": "mon-reale-mouldings",
+              "show_prod_count": true
+            }
+          },
+          "1498186836236": {
+            "type": "menu",
+            "settings": {
+              "menu": "",
+              "show_prod_count": true
+            }
+          },
+          "1572651808624": {
+            "type": "menu",
+            "settings": {
+              "menu": "",
+              "show_prod_count": true
+            }
+          }
+        },
+        "block_order": [
+          "1498186879532",
+          "1498186836236",
+          "1572651808624"
+        ],
+        "settings": {
+          "show_collection_image": false,
+          "products_per_page_range": 24,
+          "products_per_row": "4",
+          "sort_by": false,
+          "grid_list": false,
+          "default_view": "grid-view"
+        }
+      },
+      "1493163784784": {
+        "type": "dynamic-featured-collection",
+        "blocks": {
+          "d6f2966e-cbe1-4cff-b5a2-95ffba9a5216": {
+            "type": "title_card",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/download_1.jpg",
+              "horizontal_size": "3",
+              "vertical_size": "2",
+              "text_alignment": "center-center",
+              "pre_heading": "Art For Everyday",
+              "heading": "Featured Brand",
+              "text_color": "#ffffff",
+              "cta_label": "See more",
+              "overlay_color": "#000000",
+              "overlay_opacity": 20
+            }
+          }
+        },
+        "block_order": [
+          "d6f2966e-cbe1-4cff-b5a2-95ffba9a5216"
+        ],
+        "settings": {
+          "title": "Featured  Brand - Art For Everyday",
+          "layout": "grid",
+          "collection": "multiplicity-collection",
+          "product_count": 4,
+          "cta_label": "View Entire Collection",
+          "cta_button_style": "primary"
+        }
+      },
+      "static-product": {
+        "type": "static-product",
+        "settings": {
+          "gallery_aspect_ratio": "square",
+          "gallery_image_crop": false,
+          "gallery_thumbnail_position": "below",
+          "gallery_video_autoplay": false,
+          "gallery_video_looping": false,
+          "gallery_hover_zoom": "separate",
+          "gallery_click_to_zoom": "desktop"
+        }
+      },
+      "static-announcement": {
+        "type": "static-announcement",
+        "settings": {
+          "show_announcement": true,
+          "homepage_announcement": true,
+          "announcement_text": "Receive 10% OFF your first order, when you join our mailing list. FREE DOMESTIC SHIPPING on all Carvings and Finium Wall Panels.",
+          "announcement_text_mobile": "Need help? Chat or Call Customer Care: M-F 8:00AM - 4:30PM CST at 1-800-558-0119.",
+          "announcement_link": "https:\/\/mouldings.com\/pages\/join-our-mailing-list",
+          "announcement_color": "#000000",
+          "announcement_background": "#f5f3ed"
+        }
+      },
+      "static-product-recommendations": {
+        "type": "static-product-recommendations",
+        "settings": {
+          "show_product_recommendations": false,
+          "product_recommendations_heading": "You may also like"
+        }
+      },
+      "static-product-reviews": {
+        "type": "static-product-reviews",
+        "settings": {
+        }
+      },
+      "static-recently-viewed": {
+        "type": "static-recently-viewed",
+        "settings": {
+          "enable_recently_viewed_products": true
+        }
+      },
+      "16141154082496c2cc": {
+        "type": "dynamic-slideshow",
+        "blocks": {
+          "bf07925d-88df-4763-9a77-8e8e8babbd9c": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify:\/\/shop_images\/My_project-1_8.png",
+              "mobile_background_image": "shopify:\/\/shop_images\/surface_solutions_1.jpg",
+              "title": "Solid Wood Tambour Panels",
+              "text": "Experience the timeless elegance and unmatched versatility of our Hardwood Tambour Panels, the perfect solution for creating unique, durable and seamless designs in any space",
+              "color": "#ffffff",
+              "link": "https:\/\/mouldings.com\/collections\/solid-wood-tambour-panel-collection",
+              "text_alignment": "center",
+              "button_one_label": "View Collection",
+              "button_one_link": "https:\/\/mouldings.com\/collections\/solid-wood-tambour-panel-collection",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "primary",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_opacity": 50
+            }
+          },
+          "16141154082496c2cc-1": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify:\/\/shop_images\/mcm_hero_2.jpg",
+              "title": "White River Hardwoods",
+              "text": "White River offers 3,000 Embellished Hardwood Mouldings and Handcarved Woodcarvings. From eight Collections, these products can be used alone or combined together to create larger scale details for each interior room or focal point.",
+              "color": "#ffffff",
+              "link": "https:\/\/mouldings.com\/pages\/white-river-hardwoods",
+              "text_alignment": "left",
+              "button_one_label": "Learn More",
+              "button_one_link": "https:\/\/mouldings.com\/pages\/white-river-hardwoods",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "secondary",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_opacity": 20
+            }
+          },
+          "ecca3e23-9bdb-4ce9-9b97-10fc0ca8d862": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify:\/\/shop_images\/Art_For_Everyday_-_linea.png",
+              "mobile_background_image": "shopify:\/\/shop_images\/download_1.jpg",
+              "title": "Art For Everyday",
+              "text": "High quality, timeless woodcarving for all applications.,",
+              "color": "#ffffff",
+              "link": "https:\/\/mouldings.com\/pages\/artforeverydayinc",
+              "text_alignment": "right",
+              "button_one_label": "Learn More",
+              "button_one_link": "https:\/\/mouldings.com\/pages\/artforeverydayinc",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "primary",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_opacity": 8
+            }
+          },
+          "16141154082496c2cc-0": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify:\/\/shop_images\/dod.jpg",
+              "mobile_background_image": "shopify:\/\/shop_images\/DESIGNS_OF_DISTINCTION.jpg",
+              "title": "Designs of Distinction",
+              "text": "Designs of Distinction® is a premier line of decorative wood and metal components for interior design. Made in America, of superior quality and first-class materials.",
+              "color": "#ffffff",
+              "link": "https:\/\/mouldings.com\/pages\/designsofdistinctionsinc",
+              "text_alignment": "left",
+              "button_one_label": "Learn More",
+              "button_one_link": "https:\/\/mouldings.com\/pages\/designsofdistinctionsinc",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "secondary",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_opacity": 21
+            }
+          },
+          "c8c16d97-56e3-414f-992b-7daf5458c7c6": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify:\/\/shop_images\/dec_supply.jpg",
+              "title": "Decorator Supply",
+              "text": "Decorators Supply is a manufacturer and supplier of classic architectural detail since the 1880's. We offer Decorators Supply corbels, medallions and onlay product lines",
+              "color": "#ffffff",
+              "link": "https:\/\/mouldings.com\/pages\/decoratorssupplyinc",
+              "text_alignment": "right",
+              "button_one_label": "Learn More",
+              "button_one_link": "https:\/\/mouldings.com\/pages\/decoratorssupplyinc",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "primary",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_opacity": 21
+            }
+          },
+          "1eacb703-5ac2-4595-ab7a-7bddff6459b6": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify:\/\/shop_images\/Urethane_Medallions_f75b8654-3344-4f49-b263-c3fadce41e31.png",
+              "title": "Urethane Collection",
+              "text": "Our urethane millwork line is the largest of its kind and we expand it every year. Urethane offers the crisp detail of wood carvings but without the maintenance, potential deterioration, and at a much lower price point.",
+              "color": "#ffffff",
+              "link": "https:\/\/mouldings.com\/pages\/urethane",
+              "text_alignment": "left",
+              "button_one_label": "Learn More",
+              "button_one_link": "https:\/\/mouldings.com\/pages\/urethane",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "primary",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_opacity": 28
+            }
+          },
+          "b0008618-7d38-4567-919d-9ef811722a33": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify:\/\/shop_images\/artwork_ransier.png",
+              "mobile_background_image": "shopify:\/\/shop_images\/01010interior3_large_b7207bbb-c751-4706-a902-521450336dcc.jpg",
+              "title": "ARTWORK",
+              "text": "Our latest collection of original high quality artwork & digital photographs will add a statement to any room.",
+              "color": "#ffffff",
+              "link": "https:\/\/mouldings.com\/pages\/artworkandprints",
+              "text_alignment": "right",
+              "button_one_label": "Learn More",
+              "button_one_link": "https:\/\/mouldings.com\/pages\/artworkandprints",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "secondary",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_opacity": 28
+            }
+          },
+          "45c89ea1-515e-40b1-8088-3a9784ba697b": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify:\/\/shop_images\/hecolo-res-hall-sanfrancisco-1_1.jpg",
+              "mobile_background_image": "shopify:\/\/shop_images\/finium_f9f46c0c-1ce0-4df4-8528-aa4eafd109f5.jpg",
+              "title": "Finium",
+              "text": "Finium offers a wide range of wall covering panels: each one unique by design and texture.",
+              "color": "#ffffff",
+              "link": "https:\/\/mouldings.com\/pages\/finiumfriendlywall",
+              "text_alignment": "right",
+              "button_one_label": "Learn More",
+              "button_one_link": "https:\/\/mouldings.com\/pages\/finiumfriendlywall",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "https:\/\/mouldings.com\/collections\/finium-decorative-wall-panels",
+              "button_two_style": "primary",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_opacity": 19
+            }
+          }
+        },
+        "block_order": [
+          "bf07925d-88df-4763-9a77-8e8e8babbd9c",
+          "16141154082496c2cc-1",
+          "ecca3e23-9bdb-4ce9-9b97-10fc0ca8d862",
+          "16141154082496c2cc-0",
+          "c8c16d97-56e3-414f-992b-7daf5458c7c6",
+          "1eacb703-5ac2-4595-ab7a-7bddff6459b6",
+          "b0008618-7d38-4567-919d-9ef811722a33",
+          "45c89ea1-515e-40b1-8088-3a9784ba697b"
+        ],
+        "settings": {
+          "enable_autoplay": true,
+          "autoplay_duration": 9,
+          "slideshow_width": "content",
+          "slideshow_height": "large",
+          "slideshow_height_mobile": "x-large",
+          "slideshow_text_below_image": true
+        }
+      },
+      "1614115478e7f12953": {
+        "type": "dynamic-highlights-banner",
+        "blocks": {
+          "1614115478e7f12953-0": {
+            "type": "highlight",
+            "settings": {
+              "icon": "icon-credit-card",
+              "title": "Buy Now, Pay Later",
+              "text": "<p>Choose Shop Pay at checkout <\/p>",
+              "link": "https:\/\/mouldings.com\/pages\/shop-pay"
+            }
+          },
+          "1614115478e7f12953-3": {
+            "type": "highlight",
+            "settings": {
+              "icon": "icon-store",
+              "title": "Apply For a Trade Account",
+              "text": "<p>Buy 24\/7, 365 days a year <\/p>",
+              "link": "https:\/\/mouldings.com\/pages\/trade-application"
+            }
+          },
+          "1614115478e7f12953-2": {
+            "type": "highlight",
+            "settings": {
+              "icon": "icon-chat",
+              "title": "Chat With Us",
+              "text": "<p>Talk to our team via chat <\/p>",
+              "link": ""
+            }
+          },
+          "1614115478e7f12953-1": {
+            "type": "highlight",
+            "settings": {
+              "icon": "icon-delivery",
+              "title": "Free Domestic Shipping",
+              "text": "<p>On all Carvings & Finium<\/p>",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1614115478e7f12953-0",
+          "1614115478e7f12953-3",
+          "1614115478e7f12953-2",
+          "1614115478e7f12953-1"
+        ],
+        "settings": {
+          "section_spacing": false,
+          "section_width": "content-width",
+          "icon_layout": "center",
+          "color": "#1d1d1d",
+          "icon_color": "#626a81",
+          "background_color": "#ffffff",
+          "mobile_layout": "grid"
+        }
+      },
+      "1614115890cbfc29cf": {
+        "type": "dynamic-testimonials",
+        "blocks": {
+          "1614115890cbfc29cf-2": {
+            "type": "testimonial",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/review.jpg",
+              "star_rating": "5",
+              "text": "<p><strong>Very substantial!<\/strong> Great quality beautiful moldings. These moldings are made with great quality, very heavy and thick. <\/p>",
+              "author": "<p><strong>Jean Hernandez  <\/strong><\/p>"
+            }
+          },
+          "1614115890cbfc29cf-1": {
+            "type": "testimonial",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/baseboard.jpg",
+              "star_rating": "4.5",
+              "text": "<p><strong>Baseboards Rock! <\/strong><br\/>Quality was very good and just required a little light sanding. Definitely recommended.  <\/p>",
+              "author": "<p><strong>Mark Abbas <\/strong><\/p>"
+            }
+          },
+          "1614115890cbfc29cf-0": {
+            "type": "testimonial",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fireplace.jpg",
+              "star_rating": "5",
+              "text": "<p><strong>Definitely recommended. <\/strong><br\/>The scroll was the perfect added touch, great quality, and White River is certainly a class operation!<\/p>",
+              "author": "<p><strong>Charlie \"O\"  <\/strong><\/p>"
+            }
+          },
+          "3a3b329f-77d0-4320-9c5f-7eee8b6d5c1c": {
+            "type": "testimonial",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/testimonial.jpg",
+              "star_rating": "5",
+              "text": "<p>The trim shipped quickly and was well packaged and the price was very reasonable. Very happy with this product and company.  <\/p>",
+              "author": "<p><strong>Luke Windle <\/strong><\/p>"
+            }
+          },
+          "4c1dd98f-4606-4d19-ae97-d1ef82b03040": {
+            "type": "testimonial",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/testimonial_2.jpg",
+              "star_rating": "5",
+              "text": "<p>Excellent material, millwork, service and delivery Appreciate the effort for such a small order. <\/p>",
+              "author": "<p>Michael <\/p>"
+            }
+          },
+          "04baedac-c5ee-4432-9738-78f248eb6b18": {
+            "type": "testimonial",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/kitchen.jpg",
+              "star_rating": "4.5",
+              "text": "<p>Purchased this to accent the top of our custom made bathroom cabinets. Once stained to match the cabinets, the end product was just fabulous.  <\/p>",
+              "author": "<p><strong>Max McLendon <\/strong><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1614115890cbfc29cf-2",
+          "1614115890cbfc29cf-1",
+          "1614115890cbfc29cf-0",
+          "3a3b329f-77d0-4320-9c5f-7eee8b6d5c1c",
+          "4c1dd98f-4606-4d19-ae97-d1ef82b03040",
+          "04baedac-c5ee-4432-9738-78f248eb6b18"
+        ],
+        "disabled": true,
+        "settings": {
+          "title": "Testimonials",
+          "image_crop": "circle",
+          "text_size": "large"
+        }
+      },
+      "161411620981c75d5e": {
+        "type": "dynamic-shoppable-image",
+        "blocks": {
+          "161411620981c75d5e-1": {
+            "type": "hotspot",
+            "settings": {
+              "product": "medium-acanthus-leaf-repeats-4-3-4-4-3-4-x-15-16-poplar",
+              "x_axis": 64,
+              "y_axis": 67
+            }
+          },
+          "161411620981c75d5e-2": {
+            "type": "hotspot",
+            "settings": {
+              "product": "medium-square-rosette-sold-2-per-card-3-1-2w-x-3-8h-x-3-1-2d-lindenwood",
+              "x_axis": 69,
+              "y_axis": 19
+            }
+          }
+        },
+        "block_order": [
+          "161411620981c75d5e-1",
+          "161411620981c75d5e-2"
+        ],
+        "settings": {
+          "title": "White River Hardwoods - Mon Reale Collection",
+          "image": "shopify:\/\/shop_images\/White_River_Banner_1_1280_x_500_a9b81297-edf1-4ec9-b820-27164dc7861f.jpg",
+          "image_width": "two-thirds",
+          "link_text": "View product",
+          "textbox_title": "Shop this look",
+          "textbox_subheading": "<p>Shop White River's <strong>Mon Reale Collection<\/strong> of 142 opulent profiles  for high-relief details.  This Collection offers a complete moulding line - crowns, friezes, casings, bases and panel moulds  that are designed to be used alone or combined together to create larger scale details . <\/p>",
+          "textbox_button_label": "View Mon Reale Collection",
+          "textbox_button_link": "https:\/\/mouldings.com\/pages\/monrealemouldings",
+          "textbox_button_style": "primary",
+          "textbox_text_alignment": "left",
+          "textbox_text_position": "left"
+        }
+      },
+      "1614116286c7fddaa4": {
+        "type": "dynamic-collection-list",
+        "blocks": {
+          "1614116286c7fddaa4-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "shop-all-whiteriver-hardwoods",
+              "image": "shopify:\/\/shop_images\/MOULDINGS.jpg",
+              "title": ""
+            }
+          },
+          "1614116286c7fddaa4-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "brown-wood-products",
+              "image": "shopify:\/\/shop_images\/DESIGNS_OF_DISTINCTION.jpg",
+              "title": ""
+            }
+          },
+          "1614116286c7fddaa4-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "finium",
+              "image": "shopify:\/\/shop_images\/finium_collection_1000x_336288ee-8e78-4a72-b214-4cc5b061437e.jpg",
+              "title": ""
+            }
+          },
+          "357237e1-4187-424c-9610-760379b04576": {
+            "type": "collection",
+            "settings": {
+              "collection": "art-for-everyday-inc",
+              "image": "shopify:\/\/shop_images\/ART_FOR_EVERYDAY_1000x_9eea1b93-09c7-486b-8135-6f42c11f8da5.jpg",
+              "title": ""
+            }
+          },
+          "54868108-2754-49a9-ae4b-8fa4678c2b11": {
+            "type": "collection",
+            "settings": {
+              "collection": "decorators-supply",
+              "image": "shopify:\/\/shop_images\/DECORATOR_SUPPLY_1000x_093a2e08-5908-4fbb-9400-1bea28824ce8.jpg",
+              "title": ""
+            }
+          },
+          "0928677c-d079-45c9-a415-15c7c8a62d57": {
+            "type": "collection",
+            "settings": {
+              "collection": "artwork",
+              "image": "shopify:\/\/shop_images\/thumbnail_artwork.jpg",
+              "title": ""
+            }
+          }
+        },
+        "block_order": [
+          "1614116286c7fddaa4-1",
+          "1614116286c7fddaa4-3",
+          "1614116286c7fddaa4-4",
+          "357237e1-4187-424c-9610-760379b04576",
+          "54868108-2754-49a9-ae4b-8fa4678c2b11",
+          "0928677c-d079-45c9-a415-15c7c8a62d57"
+        ],
+        "settings": {
+          "title": "Shop By Brand",
+          "thumbnail_columns_desktop": 6,
+          "thumbnail_columns_mobile": 3,
+          "image-crop": "circle",
+          "cta_label": "View All Brands",
+          "cta_link": "https:\/\/mouldings.com\/pages\/shop-by-brand",
+          "cta_button_style": "secondary"
+        }
+      },
+      "1614186808567e83f9": {
+        "type": "dynamic-search",
+        "settings": {
+          "title": "Explore Our Brands Collections",
+          "text": "We have over 4,000 products from five brands in multiple wood species and materials. Use our product search bar to find what you are looking for quickly.",
+          "placeholder": "What are you looking for? White River Hardwoods, Art For Everyday, Designs of Distinction, Finium",
+          "filter_search_by": "disabled",
+          "enable_live_search": false,
+          "enable_live_search_images": false,
+          "show-overlay": false,
+          "color": "#ffffff",
+          "background": "#000000",
+          "opacity": 50
+        }
+      },
+      "1614191055f69adc20": {
+        "type": "dynamic-featured-collection",
+        "blocks": {
+          "cdedffd7-b007-4928-a751-e256b57e6fb1": {
+            "type": "view_all_card",
+            "settings": {
+              "text_alignment": "center-center",
+              "pre_heading": "View all",
+              "heading": "Collection",
+              "text_color": "#ffffff",
+              "overlay_color": "#000000",
+              "overlay_opacity": 20
+            }
+          }
+        },
+        "block_order": [
+          "cdedffd7-b007-4928-a751-e256b57e6fb1"
+        ],
+        "disabled": true,
+        "settings": {
+          "title": "",
+          "layout": "slideshow",
+          "collection": "",
+          "product_count": 9,
+          "cta_label": "",
+          "cta_button_style": "primary"
+        }
+      },
+      "1614289558b0c38561": {
+        "type": "dynamic-promo-grid",
+        "blocks": {
+          "1614289558b0c38561-0": {
+            "type": "promotion",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Traditional_Mouldings.png",
+              "title": "White River Hardwoods",
+              "text": "Decorative and Traditional Hardwood Mouldings & Carvings. Up to 30% OFF and FREE domestic shipping on carvings. Priming and Sanding services available.",
+              "color": "#ffffff",
+              "block_link": "https:\/\/mouldings.com\/pages\/white-river-hardwoods",
+              "button_text": "View White River Hardwoods Products",
+              "button_style": "primary",
+              "show_overlay": true,
+              "background": "#000000",
+              "opacity": 10
+            }
+          },
+          "e62cd725-242f-482c-9702-c015d057195a": {
+            "type": "promotion",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/radius_corners_2_8d48767a-a28d-41b9-9999-a535f962ee37.jpg",
+              "title": "MDF Radius Corners",
+              "text": "Cost-effective and versatile material that allows cabinet fabricators to include smooth, consistent radius corners. We offer multiple sizes – so you can find the perfect size for your project.",
+              "color": "#ffffff",
+              "block_link": "https:\/\/mouldings.com\/collections\/radius-corners",
+              "button_text": "View Collection",
+              "button_style": "primary",
+              "show_overlay": true,
+              "background": "",
+              "opacity": 50
+            }
+          }
+        },
+        "block_order": [
+          "1614289558b0c38561-0",
+          "e62cd725-242f-482c-9702-c015d057195a"
+        ],
+        "settings": {
+          "title": "",
+          "section_height": "medium",
+          "section_columns": 1,
+          "text_alignment": "center-left"
+        }
+      },
+      "16142910339e2febe8": {
+        "type": "dynamic-blog-posts",
+        "settings": {
+          "title": "Blog posts",
+          "blog": "news",
+          "show_date": false,
+          "show_author": false,
+          "show_excerpt": true
+        }
+      },
+      "static-list-collections": {
+        "type": "static-list-collections",
+        "settings": {
+          "thumbnail_columns_desktop": 4,
+          "thumbnail_columns_mobile": 3
+        }
+      },
+      "static-article": {
+        "type": "static-article",
+        "settings": {
+          "featured_image_width": "content-width",
+          "show_date": false,
+          "show_author": false,
+          "use_share_buttons": true
+        }
+      },
+      "page": {
+        "type": "page",
+        "settings": {
+        }
+      },
+      "login": {
+        "type": "login",
+        "settings": {
+        }
+      },
+      "page-contact": {
+        "type": "page-contact",
+        "settings": {
+        }
+      },
+      "static-utility-bar": {
+        "type": "static-utility-bar",
+        "settings": {
+          "use_full_width": false,
+          "background_color": "#626a81",
+          "link_color": "#ffffff",
+          "link_hover_color": "#ffffff",
+          "border_color": "#ffffff",
+          "menu": "header-top-nav",
+          "show_menu_mobile": true,
+          "mobile_layout": "below",
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "show_social_icons": true
+        }
+      },
+      "static-cart": {
+        "type": "static-cart",
+        "blocks": {
+          "686205f3-85e4-4033-93d3-78c711e3cc3d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/212.png"
+            }
+          },
+          "d0cb3cb0-6fa8-45fb-90c5-b3579848b8a6": {
+            "type": "richtext",
+            "settings": {
+              "richtext": "<p><strong>Save 18% <\/strong>on Tambour Panels from Designs of Distinctions. Don't let this deal pass you by; it won't last long.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "686205f3-85e4-4033-93d3-78c711e3cc3d",
+          "d0cb3cb0-6fa8-45fb-90c5-b3579848b8a6"
+        ],
+        "settings": {
+          "enable_order_notes": true,
+          "enable_shipping_calc": true,
+          "shipping_calc_default_country": "United States"
+        }
+      },
+      "16231888074ac177b9": {
+        "type": "pxs-newsletter",
+        "disabled": true,
+        "settings": {
+          "title": "Newsletter - Subscribe and SAVE",
+          "text": "<p>Receive 10% OFF your first order, when you join our mailing list. <\/p>",
+          "image": "shopify:\/\/shop_images\/shutterstock_379573105.png",
+          "desktop_alignment": "left",
+          "mobile_alignment": "top"
+        }
+      },
+      "static-search": {
+        "type": "static-search",
+        "settings": {
+          "results_per_page_range": 24,
+          "products_per_row": "4"
+        }
+      },
+      "162733384779c66fb8": {
+        "type": "dynamic-html",
+        "disabled": true,
+        "settings": {
+          "title": "NEWSLETTER - SUBSCRIBE AND SAVE Receive 10% OFF your first order, when you join our mailing list.",
+          "custom_html": ""
+        }
+      },
+      "163517863999d35776": {
+        "type": "dynamic-rich-text",
+        "disabled": true,
+        "settings": {
+          "width": "full-width",
+          "title": "WELCOME TO MOULDINGS, CORBELS & MORE",
+          "text": "",
+          "heading_size": "medium",
+          "text_alignment": "left"
+        }
+      },
+      "1635178644a95ccdcd": {
+        "type": "dynamic-image-with-text",
+        "settings": {
+          "section_heading": "",
+          "image": "shopify:\/\/shop_images\/mcm_hero_3.jpg",
+          "desktop_height": "natural",
+          "mobile_height": "natural",
+          "desktop_image_alignment": "left",
+          "mobile_image_alignment": "top",
+          "heading": "WELCOME TO MOULDINGS, CORBELS & MORE",
+          "subheading": "<p>Mouldings, Corbels and More was created for the trade design enthusiast and DIY hobbyist that is searching for an eclectic mix of beautiful interior products for their next remodel or new construction project. We’ve search for those hard to find niche products from national and international manufacturers and provide them to you at a competitive price with <strong>FREE shipping<\/strong> on most brands. We love these products and we think you will as well. <\/p><p>If you haven’t signed up for our <a href=\"https:\/\/whiteriver-mouldings.myshopify.com\/pages\/join-our-mailing-list\" target=\"_blank\" title=\"Join Now\">Mailing List<\/a> or aren’t following us on  <a href=\"https:\/\/www.facebook.com\/mouldingscorbelsandmore\" target=\"_blank\" title=\"Facebook\">Facebook<\/a>, <a href=\"https:\/\/twitter.com\/MouldingsMore\" target=\"_blank\" title=\"Twitter\">Twitter<\/a> or <a href=\"https:\/\/www.instagram.com\/mouldingsandmore\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/mouldingsandmore\">Instagram<\/a>, maybe it’s time to start. We regularly post application photos of the products we offer incorporated into beautiful environments on Instagram.  <\/p>",
+          "text_alignment": "center",
+          "button_label": "Shop Our Brands",
+          "button_link": "https:\/\/mouldings.com\/pages\/shop-by-brand"
+        }
+      },
+      "164883352860c9e2af": {
+        "type": "dynamic-rich-text",
+        "disabled": true,
+        "settings": {
+          "width": "full-width",
+          "title": "We are experiencing problems with our phone system due to recent weather",
+          "text": "<p>Our team is working hard to resolve this issue, but we do not have an estimate on when it will be resolved. Please email <strong>sales@whiteriver.com <\/strong>or call our temporary number at <strong>479-409-8406<\/strong> for all sales and order inquiries. Monday through Friday, 8:00 a.m. — 5:00 p.m. Central.<\/p>",
+          "heading_size": "large",
+          "text_alignment": "center"
+        }
+      },
+      "546555f0-8d36-4f1c-995e-85bb004c0e4a": {
+        "type": "judgeme_carousel_section",
+        "settings": {
+          "maxwidth": 1920
+        }
+      }
+    },
+    "content_for_index": [
+      "164883352860c9e2af",
+      "16141154082496c2cc",
+      "1614115478e7f12953",
+      "163517863999d35776",
+      "1635178644a95ccdcd",
+      "1614289558b0c38561",
+      "1493143038057",
+      "546555f0-8d36-4f1c-995e-85bb004c0e4a",
+      "1614116286c7fddaa4",
+      "1614191055f69adc20",
+      "1493163784784",
+      "1520634789686",
+      "161411620981c75d5e",
+      "1493145778308",
+      "1614115890cbfc29cf",
+      "16231888074ac177b9",
+      "16142910339e2febe8",
+      "1614186808567e83f9",
+      "162733384779c66fb8"
+    ],
+    "blocks": {
+      "1633112563ae82f2e0": {
+        "type": "shopify:\/\/apps\/form-builder-with-file-upload\/blocks\/app-embed\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "17143716568830177004": {
+        "type": "shopify:\/\/apps\/shop-protector\/blocks\/shop-protector\/c35d1411-093f-400e-8977-af1ac4720d6d",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "2728461494843721857": {
+        "type": "shopify:\/\/apps\/amped-email-sms-popups\/blocks\/app-embed\/d9d8f140-4443-4f6c-a16a-95357ecc2125",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "16256948136948485038": {
+        "type": "shopify:\/\/apps\/upcharge-surcharges-fees\/blocks\/app-embed-block\/3660e544-1847-4d53-9b3b-f0cb50c2d9f7",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "fb1eebdb-cd99-47c1-b7c7-2d2ec22da4d5": {
+        "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/boost-sd\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "13655089695959051254": {
+        "type": "shopify:\/\/apps\/wishlist-king\/blocks\/code-access\/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+        "disabled": false,
+        "settings": {
+          "version": "main"
+        }
+      },
+      "6680288666557934739": {
+        "type": "shopify:\/\/apps\/wishlist-king\/blocks\/wishlist-page\/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+        "disabled": false,
+        "settings": {
+          "column_width": "md",
+          "wishlist_empty_link": "shopify:\/\/collections\/all",
+          "page_max_width": 1200,
+          "page_padding_top": 30,
+          "page_padding_bottom": 30,
+          "show_share_button": true,
+          "show_buy_all_button": false,
+          "show_clear_wishlist_button": false,
+          "add_to_cart_remove_from_wishlist": false,
+          "product_options": "dropdowns",
+          "cta_button": "add_to_cart",
+          "cta_button_style": "solid_accent_1",
+          "alignment": "center",
+          "image_aspect_ratio": "1\/1",
+          "image_object_fit": "cover",
+          "show_vendor": false,
+          "show_product_title": true,
+          "show_price": true,
+          "show_variant_input_label": false
+        }
+      },
+      "14197025361042770389": {
+        "type": "shopify:\/\/apps\/wishlist-king\/blocks\/app-settings-main\/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+        "disabled": false,
+        "settings": {
+          "theme_preset": "empire",
+          "color_accent_1": "#000000",
+          "color_accent_2": "#000000",
+          "color_solid_button_label": "#FFFFFF",
+          "color_outline_button_label": "#000000",
+          "color_background_1": "#FFFFFF",
+          "color_background_2": "#FFFFFF",
+          "color_text": "#000000",
+          "button_min_height": 45,
+          "button_border_width": 1,
+          "button_border_radius": 0,
+          "input_min_height": 45,
+          "input_border_width": 1,
+          "input_border_radius": 0,
+          "shadow_opacity": 15,
+          "shadow_horizontal_offset": 0,
+          "shadow_vertical_offset": 2,
+          "shadow_blur": 4,
+          "font_text_scale": 100,
+          "access_mode": "UNRESTRICTED",
+          "wishlist_mode": "PRODUCT",
+          "wishlist_path": "\/apps\/wishlist",
+          "money_show_currency_code": true
+        }
+      },
+      "4139971114690857691": {
+        "type": "shopify:\/\/apps\/wishlist-king\/blocks\/wishlist-button-collection\/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+        "disabled": false,
+        "settings": {
+          "button_style": "plain_accent_1",
+          "button_placement": "top-end",
+          "button_offset_horizontal": 0,
+          "button_offset_vertical": 0,
+          "button_background_opacity": 85,
+          "button_background_size": 34,
+          "button_background_border_radius": 24,
+          "button_border_width": 1,
+          "show_shadow": false,
+          "icon_size": 18,
+          "icon_stroke_width": 1.2,
+          "app_integration_preset": "boost",
+          "product_link_selector": "",
+          "floating_reference_js": ""
+        }
+      },
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "12120936241911852800": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+          "position": "left"
+        }
+      }
+    }
+  },
+  "presets": {
+    "Supply": {
+      "color_background": "#ffffff",
+      "color_headings": "#1d1d1d",
+      "color_text": "#1d1d1d",
+      "color_text_light": "#949494",
+      "color_links": "#046e82",
+      "color_button_background": "#f04f36",
+      "color_button_text": "#ffffff",
+      "color_button_secondary_background": "#ffffff",
+      "color_button_secondary_text": "#f04f36",
+      "color_button_secondary_border": "#dddddd",
+      "color_header_background": "#ffffff",
+      "color_header_text": "#1d1d1d",
+      "color_input_text": "#4d4d4d",
+      "color_input_background": "#ffffff",
+      "color_input_border": "#dddddd",
+      "color_product_sale_accent": "#f04f36",
+      "color_product_review_star": "#ffab41",
+      "color_footer_background": "#f5f3ed",
+      "color_footer_text": "#1d1d1d",
+      "color_overlay": "#000000",
+      "overlay_opacity": 50,
+      "type_size_base": 16,
+      "type_heading": "montserrat_n8",
+      "type_heading_size": "1",
+      "type_heading_capitalize": false,
+      "type_heading_spacing": 0,
+      "type_body": "nunito_sans_n4",
+      "type_menu": "nunito_sans_n7",
+      "type_menu_capitalize": false,
+      "type_menu_spacing": 0,
+      "type_button": "nunito_sans_n7",
+      "type_button_capitalize": false,
+      "type_button_spacing": 0,
+      "type_section": "montserrat_n8",
+      "type_section_capitalize": false,
+      "type_section_spacing": 0,
+      "layout_max_width": 1400,
+      "product_show_vendor": false,
+      "product_show_sku": false,
+      "product_option_style": "radio",
+      "product_sales_badge": true,
+      "product_sales_badge_style": "percent",
+      "product_social_sharing": false,
+      "product_ratings_reviews": true,
+      "product_ratings_star_display": "all",
+      "product_grid_show_second_image": false,
+      "product_grid_emphasize_price": true,
+      "product_grid_image_style": "natural",
+      "product_grid_show_quickshop": "always",
+      "product_grid_show_atc": "always",
+      "quickshop_select_first_available_variant": false,
+      "quickshop_show_dcb": true,
+      "quickshop_product_cart_redirect": false,
+      "swatches_enable": false,
+      "swatches_swatch_trigger": "Color",
+      "swatches_shape": "square",
+      "swatches_product_card_size": 32,
+      "swatches_product_page_size": 64,
+      "swatches_option_style": "variant_image",
+      "swatches_custom_colors": "",
+      "social_tumblr": "",
+      "social_vimeo": "",
+      "social_youtube": "",
+      "social_linkedin": "",
+      "enable_checkout_lock_icon": false,
+      "continue_shopping_url": "shopify:\/\/collections\/all",
+      "continue_url_cart": true,
+      "continue_url_404": true,
+      "product_enable_recently_viewed_products": true,
+      "product_slideshow_style": "natural",
+      "gallery_thumbnail_position": "below",
+      "enable_image_zoom": false,
+      "image_zoom_level": "min",
+      "product_grid_quick_shop": true,
+      "product_grid_quick_buy": true,
+      "social_google": "",
+      "show_dcb": false,
+      "product_grid_quick_look": true,
+      "font_body": "Google_Lato_400,400i,700,700i",
+      "font_heading": "\"League Spartan\", sans-serif",
+      "quickshop_ratings": true,
+      "quickshop_redirect_to_cart": false,
+      "quickshop_sales_badge": true,
+      "quickshop_sales_badge_style": "percentile_save",
+      "quickshop_ratings_reviews": true,
+      "quickshop_enable_social_sharing": true,
+      "product_cart_redirect": false,
+      "show_breadcrumbs": true,
+      "quickshop_show_vendor": true,
+      "sections": {
+        "static-header": {
+          "type": "static-header",
+          "blocks": {
+            "1517255946962": {
+              "type": "meganav_images",
+              "settings": {
+                "position_1": "last",
+                "size_1": "medium",
+                "position_2": "last",
+                "size_2": "medium"
+              }
+            },
+            "ff9e6854-1318-4c95-a027-c4108d1e961d": {
+              "type": "meganav_images",
+              "settings": {
+                "position_1": "last",
+                "size_1": "medium",
+                "position_2": "first",
+                "size_2": "small"
+              }
+            }
+          },
+          "block_order": [
+            "1517255946962",
+            "ff9e6854-1318-4c95-a027-c4108d1e961d"
+          ],
+          "settings": {
+            "sticky_header": true,
+            "full_width_header": true,
+            "logo_height": 40,
+            "logo_width": 150,
+            "filter_search_by": "product_type",
+            "enable_live_search": true,
+            "show_mobile_search_bar": false,
+            "enable_live_search_images": true,
+            "quick_links": ""
+          }
+        },
+        "1520634789686": {
+          "type": "dynamic-featured-product",
+          "settings": {
+            "gallery_aspect_ratio": "natural",
+            "gallery_image_crop": false,
+            "gallery_thumbnail_position": "left",
+            "gallery_video_autoplay": false,
+            "gallery_video_looping": true,
+            "gallery_hover_zoom": "replace"
+          }
+        },
+        "static-blog": {
+          "type": "static-blog",
+          "settings": {
+            "show_rss_link": true,
+            "show_date": true,
+            "show_author": false,
+            "show_excerpt": true,
+            "posts_per_page_range": 9
+          }
+        },
+        "1493143038057": {
+          "type": "dynamic-promo-mosaic",
+          "blocks": {
+            "1493143038057-0": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "rgba(0,0,0,0)",
+                "opacity": 50
+              }
+            },
+            "1493143038057-1": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": true,
+                "background": "#000000",
+                "opacity": 5
+              }
+            },
+            "1493143038057-2": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": true,
+                "background": "#000000",
+                "opacity": 3
+              }
+            },
+            "1493143583401": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "",
+                "opacity": 50
+              }
+            }
+          },
+          "block_order": [
+            "1493143038057-0",
+            "1493143038057-1",
+            "1493143038057-2",
+            "1493143583401"
+          ],
+          "settings": {
+            "title": "",
+            "section_height": "small",
+            "text_alignment": "top-left",
+            "maintain_aspect_ratio": true,
+            "compress_blocks": false
+          }
+        },
+        "static-footer": {
+          "type": "static-footer",
+          "blocks": {
+            "1493171899575": {
+              "type": "social_accounts",
+              "settings": {
+              }
+            },
+            "static-footer-0": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "1498182586280": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "1498182572847": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "static-footer-1": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1493171899575",
+            "static-footer-0",
+            "1498182586280",
+            "1498182572847",
+            "static-footer-1"
+          ],
+          "settings": {
+            "payment_icons": true,
+            "show_locale_selector": true,
+            "show_currency_selector": true
+          }
+        },
+        "1493145778308": {
+          "type": "dynamic-promo-grid",
+          "blocks": {
+            "9277da70-592e-4d14-9d97-c94599d2e88a": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "",
+                "opacity": 50
+              }
+            },
+            "ea3e2541-5917-4d6e-a810-44a477e32117": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "",
+                "opacity": 50
+              }
+            },
+            "1493145778308-0": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "",
+                "opacity": 50
+              }
+            },
+            "088c4496-9bd9-4845-bddc-936fea6faff1": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "",
+                "opacity": 50
+              }
+            }
+          },
+          "block_order": [
+            "9277da70-592e-4d14-9d97-c94599d2e88a",
+            "ea3e2541-5917-4d6e-a810-44a477e32117",
+            "1493145778308-0",
+            "088c4496-9bd9-4845-bddc-936fea6faff1"
+          ],
+          "settings": {
+            "section_height": "medium",
+            "section_columns": 4,
+            "text_alignment": "top-left"
+          }
+        },
+        "static-collection": {
+          "type": "static-collection",
+          "blocks": {
+            "1498186879532": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "1498186836236": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "1572651808624": {
+              "type": "menu",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1498186879532",
+            "1498186836236",
+            "1572651808624"
+          ],
+          "settings": {
+            "show_collection_image": true,
+            "products_per_page_range": 24,
+            "products_per_row": "4",
+            "sort_by": true,
+            "grid_list": true,
+            "default_view": "grid-view"
+          }
+        },
+        "1493163784784": {
+          "type": "dynamic-featured-collection",
+          "blocks": {
+            "d6f2966e-cbe1-4cff-b5a2-95ffba9a5216": {
+              "type": "title_card",
+              "settings": {
+                "horizontal_size": "3",
+                "vertical_size": "2",
+                "text_alignment": "center-center",
+                "text_color": "#ffffff",
+                "overlay_color": "#000000",
+                "overlay_opacity": 10
+              }
+            }
+          },
+          "block_order": [
+            "d6f2966e-cbe1-4cff-b5a2-95ffba9a5216"
+          ],
+          "settings": {
+            "layout": "grid",
+            "product_count": 4,
+            "cta_label": "",
+            "cta_button_style": "primary"
+          }
+        },
+        "static-product": {
+          "type": "static-product",
+          "settings": {
+            "gallery_aspect_ratio": "natural",
+            "gallery_image_crop": false,
+            "gallery_thumbnail_position": "below",
+            "gallery_video_autoplay": true,
+            "gallery_video_looping": true,
+            "gallery_hover_zoom": "disabled",
+            "gallery_click_to_zoom": "always"
+          }
+        },
+        "static-announcement": {
+          "type": "static-announcement",
+          "settings": {
+            "show_announcement": true,
+            "homepage_announcement": false,
+            "announcement_color": "#000000",
+            "announcement_background": "#f5f3ed"
+          }
+        },
+        "static-product-recommendations": {
+          "type": "static-product-recommendations",
+          "settings": {
+            "show_product_recommendations": true
+          }
+        },
+        "static-product-reviews": {
+          "type": "static-product-reviews",
+          "settings": {
+          }
+        },
+        "static-recently-viewed": {
+          "type": "static-recently-viewed",
+          "settings": {
+            "enable_recently_viewed_products": true
+          }
+        },
+        "16141154082496c2cc": {
+          "type": "dynamic-slideshow",
+          "blocks": {
+            "16141154082496c2cc-1": {
+              "type": "slide",
+              "settings": {
+                "color": "#ffffff",
+                "text_alignment": "center",
+                "button_one_style": "primary",
+                "button_two_style": "secondary",
+                "show_overlay": true,
+                "overlay_color": "#000000",
+                "overlay_opacity": 13
+              }
+            },
+            "1eacb703-5ac2-4595-ab7a-7bddff6459b6": {
+              "type": "slide",
+              "settings": {
+                "color": "#1d1d1d",
+                "text_alignment": "left",
+                "button_one_style": "primary",
+                "button_two_style": "primary",
+                "show_overlay": true,
+                "overlay_color": "#000000",
+                "overlay_opacity": 4
+              }
+            },
+            "16141154082496c2cc-0": {
+              "type": "slide",
+              "settings": {
+                "color": "#ffffff",
+                "text_alignment": "center",
+                "button_one_style": "primary",
+                "button_two_style": "secondary",
+                "show_overlay": true,
+                "overlay_color": "#000000",
+                "overlay_opacity": 20
+              }
+            },
+            "b0008618-7d38-4567-919d-9ef811722a33": {
+              "type": "slide",
+              "settings": {
+                "color": "#1d1d1d",
+                "text_alignment": "left",
+                "button_one_style": "primary",
+                "button_two_style": "secondary",
+                "show_overlay": true,
+                "overlay_color": "#000000",
+                "overlay_opacity": 5
+              }
+            }
+          },
+          "block_order": [
+            "16141154082496c2cc-1",
+            "1eacb703-5ac2-4595-ab7a-7bddff6459b6",
+            "16141154082496c2cc-0",
+            "b0008618-7d38-4567-919d-9ef811722a33"
+          ],
+          "settings": {
+            "enable_autoplay": true,
+            "autoplay_duration": 9,
+            "slideshow_width": "full",
+            "slideshow_height": "medium",
+            "slideshow_height_mobile": "x-large",
+            "slideshow_text_below_image": false
+          }
+        },
+        "1614115478e7f12953": {
+          "type": "dynamic-highlights-banner",
+          "blocks": {
+            "1614115478e7f12953-0": {
+              "type": "highlight",
+              "settings": {
+              }
+            },
+            "1614115478e7f12953-2": {
+              "type": "highlight",
+              "settings": {
+              }
+            },
+            "1614115478e7f12953-3": {
+              "type": "highlight",
+              "settings": {
+              }
+            },
+            "1614115478e7f12953-1": {
+              "type": "highlight",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1614115478e7f12953-0",
+            "1614115478e7f12953-2",
+            "1614115478e7f12953-3",
+            "1614115478e7f12953-1"
+          ],
+          "settings": {
+            "section_spacing": false,
+            "section_width": "content-width",
+            "icon_layout": "center",
+            "color": "#1d1d1d",
+            "icon_color": "#046e82",
+            "background_color": "#ffffff",
+            "mobile_layout": "grid"
+          }
+        },
+        "1614115890cbfc29cf": {
+          "type": "dynamic-testimonials",
+          "blocks": {
+            "1614115890cbfc29cf-2": {
+              "type": "testimonial",
+              "settings": {
+              }
+            },
+            "1614115890cbfc29cf-1": {
+              "type": "testimonial",
+              "settings": {
+              }
+            },
+            "1614115890cbfc29cf-0": {
+              "type": "testimonial",
+              "settings": {
+              }
+            },
+            "3a3b329f-77d0-4320-9c5f-7eee8b6d5c1c": {
+              "type": "testimonial",
+              "settings": {
+              }
+            },
+            "4c1dd98f-4606-4d19-ae97-d1ef82b03040": {
+              "type": "testimonial",
+              "settings": {
+              }
+            },
+            "04baedac-c5ee-4432-9738-78f248eb6b18": {
+              "type": "testimonial",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1614115890cbfc29cf-2",
+            "1614115890cbfc29cf-1",
+            "1614115890cbfc29cf-0",
+            "3a3b329f-77d0-4320-9c5f-7eee8b6d5c1c",
+            "4c1dd98f-4606-4d19-ae97-d1ef82b03040",
+            "04baedac-c5ee-4432-9738-78f248eb6b18"
+          ],
+          "settings": {
+            "image_crop": "circle",
+            "text_size": "large"
+          }
+        },
+        "161411620981c75d5e": {
+          "type": "dynamic-shoppable-image",
+          "blocks": {
+            "161411620981c75d5e-0": {
+              "type": "hotspot",
+              "settings": {
+                "x_axis": 24,
+                "y_axis": 79
+              }
+            },
+            "161411620981c75d5e-1": {
+              "type": "hotspot",
+              "settings": {
+                "x_axis": 64,
+                "y_axis": 67
+              }
+            },
+            "161411620981c75d5e-2": {
+              "type": "hotspot",
+              "settings": {
+                "x_axis": 61,
+                "y_axis": 5
+              }
+            },
+            "faf48f6e-5707-4f19-8dbc-ddd6b60df25f": {
+              "type": "hotspot",
+              "settings": {
+                "x_axis": 15,
+                "y_axis": 19
+              }
+            },
+            "ad761ee7-ba2a-4f6b-bf66-1bc6e95b37eb": {
+              "type": "hotspot",
+              "settings": {
+                "x_axis": 87,
+                "y_axis": 48
+              }
+            }
+          },
+          "block_order": [
+            "161411620981c75d5e-0",
+            "161411620981c75d5e-1",
+            "161411620981c75d5e-2",
+            "faf48f6e-5707-4f19-8dbc-ddd6b60df25f",
+            "ad761ee7-ba2a-4f6b-bf66-1bc6e95b37eb"
+          ],
+          "settings": {
+            "image_width": "two-thirds",
+            "textbox_button_style": "primary",
+            "textbox_text_alignment": "center",
+            "textbox_text_position": "left"
+          }
+        },
+        "1614116286c7fddaa4": {
+          "type": "dynamic-collection-list",
+          "blocks": {
+            "1614116286c7fddaa4-1": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "1614116286c7fddaa4-3": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "1614116286c7fddaa4-4": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "357237e1-4187-424c-9610-760379b04576": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "54868108-2754-49a9-ae4b-8fa4678c2b11": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "0928677c-d079-45c9-a415-15c7c8a62d57": {
+              "type": "collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1614116286c7fddaa4-1",
+            "1614116286c7fddaa4-3",
+            "1614116286c7fddaa4-4",
+            "357237e1-4187-424c-9610-760379b04576",
+            "54868108-2754-49a9-ae4b-8fa4678c2b11",
+            "0928677c-d079-45c9-a415-15c7c8a62d57"
+          ],
+          "settings": {
+            "thumbnail_columns_desktop": 6,
+            "thumbnail_columns_mobile": 3,
+            "cta_button_style": "secondary"
+          }
+        },
+        "1614186808567e83f9": {
+          "type": "dynamic-search",
+          "settings": {
+            "filter_search_by": "disabled",
+            "enable_live_search": true,
+            "enable_live_search_images": false,
+            "show-overlay": false,
+            "color": "#ffffff",
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "1614189245102837c3": {
+          "type": "dynamic-promo-grid",
+          "blocks": {
+            "1614189245102837c3-0": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "secondary",
+                "show_overlay": false,
+                "background": "rgba(0,0,0,0)",
+                "opacity": 50
+              }
+            },
+            "1614189245102837c3-1": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "rgba(0,0,0,0)",
+                "opacity": 50
+              }
+            }
+          },
+          "block_order": [
+            "1614189245102837c3-0",
+            "1614189245102837c3-1"
+          ],
+          "settings": {
+            "title": "",
+            "section_height": "small",
+            "section_columns": 2,
+            "text_alignment": "center-left"
+          }
+        },
+        "1614191055f69adc20": {
+          "type": "dynamic-featured-collection",
+          "blocks": {
+            "cdedffd7-b007-4928-a751-e256b57e6fb1": {
+              "type": "view_all_card",
+              "settings": {
+                "text_alignment": "center-center",
+                "text_color": "#ffffff",
+                "overlay_color": "#000000",
+                "overlay_opacity": 20
+              }
+            }
+          },
+          "block_order": [
+            "cdedffd7-b007-4928-a751-e256b57e6fb1"
+          ],
+          "settings": {
+            "title": "",
+            "layout": "slideshow",
+            "product_count": 9,
+            "cta_label": "",
+            "cta_button_style": "primary"
+          }
+        },
+        "1614289558b0c38561": {
+          "type": "dynamic-promo-grid",
+          "blocks": {
+            "1614289558b0c38561-0": {
+              "type": "promotion",
+              "settings": {
+                "color": "#1e1e1e",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "",
+                "opacity": 50
+              }
+            }
+          },
+          "block_order": [
+            "1614289558b0c38561-0"
+          ],
+          "settings": {
+            "section_height": "medium",
+            "section_columns": 1,
+            "text_alignment": "center-left"
+          }
+        },
+        "16142910339e2febe8": {
+          "type": "dynamic-blog-posts",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_excerpt": true
+          }
+        },
+        "static-list-collections": {
+          "type": "static-list-collections",
+          "settings": {
+            "thumbnail_columns_desktop": 4,
+            "thumbnail_columns_mobile": 3
+          }
+        },
+        "static-article": {
+          "type": "static-article",
+          "settings": {
+            "featured_image_width": "full-width",
+            "show_date": true,
+            "show_author": true,
+            "use_share_buttons": true
+          }
+        },
+        "page": {
+          "type": "page",
+          "settings": {
+          }
+        },
+        "login": {
+          "type": "login",
+          "settings": {
+          }
+        },
+        "page-contact": {
+          "type": "page-contact",
+          "settings": {
+          }
+        }
+      },
+      "content_for_index": [
+        "16141154082496c2cc",
+        "1614115478e7f12953",
+        "1493143038057",
+        "1493163784784",
+        "1520634789686",
+        "1493145778308",
+        "1614116286c7fddaa4",
+        "161411620981c75d5e",
+        "1614191055f69adc20",
+        "1614289558b0c38561",
+        "1614189245102837c3",
+        "1614115890cbfc29cf",
+        "16142910339e2febe8",
+        "1614186808567e83f9"
+      ]
+    },
+    "Graphic": {
+      "color_background": "#ffffff",
+      "color_headings": "#000000",
+      "color_text": "#000000",
+      "color_text_light": "#464646",
+      "color_links": "#494d41",
+      "color_button_background": "#000000",
+      "color_button_text": "#ffffff",
+      "color_button_secondary_background": "#ffffff",
+      "color_button_secondary_text": "#000000",
+      "color_button_secondary_border": "#000000",
+      "color_header_background": "#ffffff",
+      "color_header_text": "#000000",
+      "color_input_text": "#4d4d4d",
+      "color_input_background": "#ffffff",
+      "color_input_border": "#000000",
+      "color_product_sale_accent": "#494d41",
+      "color_product_review_star": "#000000",
+      "color_footer_background": "#ffffff",
+      "color_footer_text": "#000000",
+      "color_overlay": "#000000",
+      "overlay_opacity": 50,
+      "type_size_base": 16,
+      "type_heading": "goudy_old_style_n4",
+      "type_heading_size": "1.2",
+      "type_heading_capitalize": false,
+      "type_heading_spacing": 0,
+      "type_body": "source_sans_pro_n4",
+      "type_menu": "source_sans_pro_n6",
+      "type_menu_capitalize": false,
+      "type_menu_spacing": 0,
+      "type_button": "source_sans_pro_n4",
+      "type_button_capitalize": false,
+      "type_button_spacing": 0,
+      "type_section": "goudy_old_style_n4",
+      "type_section_capitalize": false,
+      "type_section_spacing": 0,
+      "layout_max_width": 1400,
+      "product_show_vendor": true,
+      "product_show_sku": false,
+      "product_option_style": "radio",
+      "product_sales_badge": true,
+      "product_sales_badge_style": "text",
+      "product_social_sharing": false,
+      "product_ratings_reviews": false,
+      "product_ratings_star_display": "prod-page",
+      "product_grid_show_second_image": false,
+      "product_grid_emphasize_price": false,
+      "product_grid_image_style": "natural",
+      "product_grid_show_quickshop": "always",
+      "product_grid_show_atc": "always",
+      "quickshop_select_first_available_variant": false,
+      "quickshop_show_dcb": true,
+      "quickshop_product_cart_redirect": false,
+      "swatches_enable": true,
+      "swatches_swatch_trigger": "Color",
+      "swatches_shape": "square",
+      "swatches_product_card_size": 32,
+      "swatches_product_page_size": 64,
+      "swatches_option_style": "variant_image",
+      "swatches_custom_colors": "",
+      "enable_checkout_lock_icon": false,
+      "continue_shopping_url": "shopify:\/\/collections\/all",
+      "continue_url_cart": true,
+      "continue_url_404": true,
+      "product_enable_recently_viewed_products": true,
+      "product_slideshow_style": "natural",
+      "gallery_thumbnail_position": "below",
+      "enable_image_zoom": false,
+      "image_zoom_level": "min",
+      "product_grid_quick_shop": true,
+      "product_grid_quick_buy": true,
+      "social_google": "",
+      "show_dcb": false,
+      "product_grid_quick_look": true,
+      "font_body": "Google_Lato_400,400i,700,700i",
+      "font_heading": "\"League Spartan\", sans-serif",
+      "quickshop_ratings": true,
+      "quickshop_redirect_to_cart": false,
+      "quickshop_sales_badge": true,
+      "quickshop_sales_badge_style": "percentile_save",
+      "quickshop_ratings_reviews": true,
+      "quickshop_enable_social_sharing": true,
+      "product_cart_redirect": false,
+      "show_breadcrumbs": true,
+      "quickshop_show_vendor": true,
+      "sections": {
+        "static-header": {
+          "type": "static-header",
+          "blocks": {
+            "1517255946962": {
+              "type": "meganav_images",
+              "settings": {
+                "position_1": "first",
+                "size_1": "small",
+                "position_2": "first",
+                "size_2": "small"
+              }
+            },
+            "1572476394007": {
+              "type": "multi_column_menu",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1517255946962",
+            "1572476394007"
+          ],
+          "settings": {
+            "sticky_header": false,
+            "full_width_header": false,
+            "logo_height": 43,
+            "logo_width": 150,
+            "filter_search_by": "disabled",
+            "enable_live_search": true,
+            "show_mobile_search_bar": true,
+            "enable_live_search_images": true,
+            "small_promo_icon": "none"
+          }
+        },
+        "static-blog": {
+          "type": "static-blog",
+          "settings": {
+            "show_rss_link": false,
+            "show_date": true,
+            "show_author": true,
+            "show_excerpt": true,
+            "posts_per_page_range": 9
+          }
+        },
+        "1493143038057": {
+          "type": "dynamic-promo-mosaic",
+          "blocks": {
+            "1493143038057-0": {
+              "type": "promotion",
+              "settings": {
+                "color": "#000000",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "#000000",
+                "opacity": 3
+              }
+            },
+            "1493143038057-1": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "secondary",
+                "show_overlay": false,
+                "background": "",
+                "opacity": 50
+              }
+            },
+            "f9160850-ab1c-42d6-87ce-6a57b0fcab72": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "secondary",
+                "show_overlay": false,
+                "background": "",
+                "opacity": 50
+              }
+            }
+          },
+          "block_order": [
+            "1493143038057-0",
+            "1493143038057-1",
+            "f9160850-ab1c-42d6-87ce-6a57b0fcab72"
+          ],
+          "settings": {
+            "title": "",
+            "section_height": "small",
+            "text_alignment": "top-left",
+            "maintain_aspect_ratio": false,
+            "compress_blocks": false
+          }
+        },
+        "static-footer": {
+          "type": "static-footer",
+          "blocks": {
+            "static-footer-0": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "1498182586280": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "1498182572847": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "1493171899575": {
+              "type": "social_accounts",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "static-footer-0",
+            "1498182586280",
+            "1498182572847",
+            "1493171899575"
+          ],
+          "settings": {
+            "payment_icons": false,
+            "show_locale_selector": true,
+            "show_currency_selector": true,
+            "additional_menu": ""
+          }
+        },
+        "1493145778308": {
+          "type": "dynamic-promo-grid",
+          "blocks": {
+            "46b5e4d8-c021-4397-9839-50e522dd71ad": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": true,
+                "background": "#000000",
+                "opacity": 5
+              }
+            },
+            "1493145778308-0": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": true,
+                "background": "#000000",
+                "opacity": 10
+              }
+            },
+            "d2dcbdf9-683b-4878-8c03-a3bcf37844af": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": true,
+                "background": "#000000",
+                "opacity": 20
+              }
+            }
+          },
+          "block_order": [
+            "46b5e4d8-c021-4397-9839-50e522dd71ad",
+            "1493145778308-0",
+            "d2dcbdf9-683b-4878-8c03-a3bcf37844af"
+          ],
+          "settings": {
+            "section_height": "natural",
+            "section_columns": 3,
+            "text_alignment": "center-center"
+          }
+        },
+        "static-collection": {
+          "type": "static-collection",
+          "blocks": {
+            "1498186879532": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "1498186836236": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "1572651808624": {
+              "type": "menu",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1498186879532",
+            "1498186836236",
+            "1572651808624"
+          ],
+          "settings": {
+            "show_collection_image": true,
+            "products_per_page_range": 24,
+            "products_per_row": "3",
+            "sort_by": true,
+            "grid_list": true,
+            "default_view": "grid-view"
+          }
+        },
+        "1493163784784": {
+          "type": "dynamic-featured-collection",
+          "blocks": {
+            "1fba7cf0-c0de-49c1-92fc-3ed1338f8822": {
+              "type": "title_card",
+              "settings": {
+                "horizontal_size": "2",
+                "vertical_size": "2",
+                "text_alignment": "top-left",
+                "text_color": "#ffffff",
+                "overlay_color": "rgba(0,0,0,0)",
+                "overlay_opacity": 50
+              }
+            }
+          },
+          "block_order": [
+            "1fba7cf0-c0de-49c1-92fc-3ed1338f8822"
+          ],
+          "settings": {
+            "layout": "grid",
+            "product_count": 6,
+            "cta_button_style": "primary"
+          }
+        },
+        "1493166188493": {
+          "type": "dynamic-menu-list",
+          "blocks": {
+            "1493166188493-0": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "1493166188493-1": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "1493166188493-2": {
+              "type": "menu",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1493166188493-0",
+            "1493166188493-1",
+            "1493166188493-2"
+          ],
+          "settings": {
+          }
+        },
+        "static-product": {
+          "type": "static-product",
+          "settings": {
+            "gallery_aspect_ratio": "natural",
+            "gallery_image_crop": false,
+            "gallery_thumbnail_position": "below",
+            "gallery_video_autoplay": true,
+            "gallery_video_looping": true,
+            "gallery_hover_zoom": "disabled",
+            "gallery_click_to_zoom": "always"
+          }
+        },
+        "static-announcement": {
+          "type": "static-announcement",
+          "settings": {
+            "show_announcement": true,
+            "homepage_announcement": true,
+            "announcement_color": "#ffffff",
+            "announcement_background": "#494d41"
+          }
+        },
+        "static-product-recommendations": {
+          "type": "static-product-recommendations",
+          "settings": {
+            "show_product_recommendations": true
+          }
+        },
+        "static-product-reviews": {
+          "type": "static-product-reviews",
+          "settings": {
+          }
+        },
+        "static-recently-viewed": {
+          "type": "static-recently-viewed",
+          "settings": {
+            "enable_recently_viewed_products": true
+          }
+        },
+        "16141166870f790be5": {
+          "type": "dynamic-slideshow",
+          "blocks": {
+            "16141166870f790be5-0": {
+              "type": "slide",
+              "settings": {
+                "color": "#000000",
+                "text_alignment": "center",
+                "button_one_style": "primary",
+                "button_two_label": "Shop Decor",
+                "show_overlay": true,
+                "overlay_color": "#000000",
+                "overlay_opacity": 3
+              }
+            }
+          },
+          "block_order": [
+            "16141166870f790be5-0"
+          ],
+          "settings": {
+            "enable_autoplay": false,
+            "autoplay_duration": 8,
+            "slideshow_width": "content",
+            "slideshow_height": "large",
+            "slideshow_height_mobile": "x-large",
+            "slideshow_text_below_image": false
+          }
+        },
+        "16141169912db36a39": {
+          "type": "dynamic-rich-text",
+          "settings": {
+            "width": "wide",
+            "heading_size": "small",
+            "text_alignment": "center"
+          }
+        },
+        "16141174150e86eb4e": {
+          "type": "dynamic-testimonials",
+          "blocks": {
+            "16141174150e86eb4e-0": {
+              "type": "testimonial",
+              "settings": {
+              }
+            },
+            "eb18f7d8-2668-4114-8393-e16d36924bb8": {
+              "type": "testimonial",
+              "settings": {
+              }
+            },
+            "16141174150e86eb4e-2": {
+              "type": "testimonial",
+              "settings": {
+              }
+            },
+            "16141174150e86eb4e-1": {
+              "type": "testimonial",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "16141174150e86eb4e-0",
+            "eb18f7d8-2668-4114-8393-e16d36924bb8",
+            "16141174150e86eb4e-2",
+            "16141174150e86eb4e-1"
+          ],
+          "settings": {
+            "title": "",
+            "image_crop": "original",
+            "text_size": "small"
+          }
+        },
+        "1614117520c9052570": {
+          "type": "dynamic-rich-text",
+          "settings": {
+            "width": "wide",
+            "heading_size": "medium",
+            "text_alignment": "left"
+          }
+        },
+        "16141176022c8b146f": {
+          "type": "dynamic-shoppable-image",
+          "blocks": {
+            "16141176022c8b146f-0": {
+              "type": "hotspot",
+              "settings": {
+                "x_axis": 14,
+                "y_axis": 65
+              }
+            },
+            "16141176022c8b146f-1": {
+              "type": "hotspot",
+              "settings": {
+                "x_axis": 50,
+                "y_axis": 29
+              }
+            },
+            "16141176022c8b146f-2": {
+              "type": "hotspot",
+              "settings": {
+                "x_axis": 81,
+                "y_axis": 36
+              }
+            },
+            "9fd90daf-600c-470c-bd0a-755522a8d532": {
+              "type": "hotspot",
+              "settings": {
+                "x_axis": 7,
+                "y_axis": 45
+              }
+            },
+            "a63d9e31-a78c-4152-9877-92536715eef4": {
+              "type": "hotspot",
+              "settings": {
+                "x_axis": 70,
+                "y_axis": 18
+              }
+            }
+          },
+          "block_order": [
+            "16141176022c8b146f-0",
+            "16141176022c8b146f-1",
+            "16141176022c8b146f-2",
+            "9fd90daf-600c-470c-bd0a-755522a8d532",
+            "a63d9e31-a78c-4152-9877-92536715eef4"
+          ],
+          "settings": {
+            "image_width": "full",
+            "textbox_button_style": "primary",
+            "textbox_text_alignment": "left",
+            "textbox_text_position": "right"
+          }
+        },
+        "161419869208faddc0": {
+          "type": "dynamic-featured-collection",
+          "blocks": {
+            "8d51c6dc-5e73-4c2a-8a1c-a83197ac6fe7": {
+              "type": "view_all_card",
+              "settings": {
+                "text_alignment": "center-center",
+                "text_color": "#000000",
+                "overlay_color": "#eff1ec",
+                "overlay_opacity": 100
+              }
+            }
+          },
+          "block_order": [
+            "8d51c6dc-5e73-4c2a-8a1c-a83197ac6fe7"
+          ],
+          "settings": {
+            "layout": "slideshow",
+            "product_count": 5,
+            "cta_button_style": "primary"
+          }
+        },
+        "1614200365defc244d": {
+          "type": "dynamic-video",
+          "settings": {
+            "show_caption": false,
+            "caption": "",
+            "autoplay": false,
+            "aspect_ratio": "21-9",
+            "show_overlay": false,
+            "background": "rgba(0,0,0,0)",
+            "opacity": 50
+          }
+        },
+        "1614200506785b5b76": {
+          "type": "dynamic-highlights-banner",
+          "blocks": {
+            "1614200506a43fc141-0": {
+              "type": "highlight",
+              "settings": {
+              }
+            },
+            "1614200506a43fc141-1": {
+              "type": "highlight",
+              "settings": {
+              }
+            },
+            "1614200506a43fc141-2": {
+              "type": "highlight",
+              "settings": {
+              }
+            },
+            "1614200506a43fc141-3": {
+              "type": "highlight",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1614200506a43fc141-0",
+            "1614200506a43fc141-1",
+            "1614200506a43fc141-2",
+            "1614200506a43fc141-3"
+          ],
+          "settings": {
+            "section_spacing": true,
+            "section_width": "full-width",
+            "icon_layout": "center",
+            "color": "#000000",
+            "icon_color": "#000000",
+            "background_color": "#eff1ec",
+            "mobile_layout": "slider"
+          }
+        },
+        "161411770226fca04c": {
+          "type": "dynamic-collection-list",
+          "blocks": {
+            "161411770226fca04c-0": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "161411770226fca04c-1": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "161411770226fca04c-2": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "161411770226fca04c-4": {
+              "type": "collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "161411770226fca04c-0",
+            "161411770226fca04c-1",
+            "161411770226fca04c-2",
+            "161411770226fca04c-4"
+          ],
+          "settings": {
+            "thumbnail_columns_desktop": 4,
+            "thumbnail_columns_mobile": 2,
+            "cta_button_style": "primary"
+          }
+        },
+        "161420097465356c6c": {
+          "type": "dynamic-logo-list",
+          "blocks": {
+            "161420097465356c6c-0": {
+              "type": "logo",
+              "settings": {
+              }
+            },
+            "161420097465356c6c-1": {
+              "type": "logo",
+              "settings": {
+              }
+            },
+            "161420097465356c6c-2": {
+              "type": "logo",
+              "settings": {
+              }
+            },
+            "161420097465356c6c-3": {
+              "type": "logo",
+              "settings": {
+              }
+            },
+            "f3f15a50-e222-48da-add3-2181f19a4fe2": {
+              "type": "logo",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "161420097465356c6c-0",
+            "161420097465356c6c-1",
+            "161420097465356c6c-2",
+            "161420097465356c6c-3",
+            "f3f15a50-e222-48da-add3-2181f19a4fe2"
+          ],
+          "settings": {
+          }
+        },
+        "static-article": {
+          "type": "static-article",
+          "settings": {
+            "featured_image_width": "full-width",
+            "show_date": true,
+            "show_author": true,
+            "use_share_buttons": true
+          }
+        },
+        "16147042426d80a2d7": {
+          "type": "pxs-newsletter",
+          "settings": {
+            "desktop_alignment": "left",
+            "mobile_alignment": "top"
+          }
+        }
+      },
+      "content_for_index": [
+        "16141176022c8b146f",
+        "16141169912db36a39",
+        "1614117520c9052570",
+        "1493145778308",
+        "161419869208faddc0",
+        "16141166870f790be5",
+        "161411770226fca04c",
+        "1493163784784",
+        "161420097465356c6c",
+        "1493143038057",
+        "1493166188493",
+        "1614200365defc244d",
+        "16141174150e86eb4e",
+        "16147042426d80a2d7",
+        "1614200506785b5b76"
+      ]
+    },
+    "Industrial": {
+      "color_background": "#ffffff",
+      "color_headings": "#000000",
+      "color_text": "#000000",
+      "color_text_light": "#949494",
+      "color_links": "#171f2b",
+      "color_button_background": "#1268f1",
+      "color_button_text": "#ffffff",
+      "color_button_secondary_background": "#ffffff",
+      "color_button_secondary_text": "#1268f1",
+      "color_button_secondary_border": "#dddddd",
+      "color_header_background": "#000000",
+      "color_header_text": "#ffffff",
+      "color_input_text": "#4d4d4d",
+      "color_input_background": "#ffffff",
+      "color_input_border": "#dddddd",
+      "color_product_sale_accent": "#e32619",
+      "color_product_review_star": "#171f2b",
+      "color_footer_background": "#f7f7f7",
+      "color_footer_text": "#000000",
+      "color_overlay": "#000000",
+      "overlay_opacity": 50,
+      "type_size_base": 16,
+      "type_heading": "arimo_n7",
+      "type_heading_size": "1",
+      "type_heading_capitalize": false,
+      "type_heading_spacing": -1,
+      "type_body": "libre_franklin_n4",
+      "type_menu": "libre_franklin_n6",
+      "type_menu_capitalize": false,
+      "type_menu_spacing": 0,
+      "type_button": "libre_franklin_n7",
+      "type_button_capitalize": false,
+      "type_button_spacing": 0,
+      "type_section": "arimo_n7",
+      "type_section_capitalize": false,
+      "type_section_spacing": -1,
+      "layout_max_width": 1400,
+      "product_show_vendor": true,
+      "product_show_sku": false,
+      "product_option_style": "select",
+      "product_sales_badge": true,
+      "product_sales_badge_style": "money",
+      "product_social_sharing": true,
+      "product_ratings_reviews": true,
+      "product_ratings_star_display": "all",
+      "product_grid_show_second_image": true,
+      "product_grid_emphasize_price": false,
+      "product_grid_image_style": "natural",
+      "product_grid_show_quickshop": "always",
+      "product_grid_show_atc": "always",
+      "quickshop_select_first_available_variant": false,
+      "quickshop_show_dcb": true,
+      "quickshop_product_cart_redirect": false,
+      "swatches_enable": true,
+      "swatches_swatch_trigger": "Color",
+      "swatches_shape": "circle",
+      "swatches_product_card_size": 32,
+      "swatches_product_page_size": 64,
+      "swatches_option_style": "variant_image",
+      "enable_checkout_lock_icon": false,
+      "continue_shopping_url": "shopify:\/\/collections\/all",
+      "continue_url_cart": true,
+      "continue_url_404": true,
+      "product_enable_recently_viewed_products": true,
+      "product_slideshow_style": "natural",
+      "gallery_thumbnail_position": "below",
+      "enable_image_zoom": false,
+      "image_zoom_level": "min",
+      "product_grid_quick_shop": true,
+      "product_grid_quick_buy": true,
+      "social_google": "",
+      "show_dcb": false,
+      "product_grid_quick_look": true,
+      "font_body": "Google_Lato_400,400i,700,700i",
+      "font_heading": "\"League Spartan\", sans-serif",
+      "quickshop_ratings": true,
+      "quickshop_redirect_to_cart": false,
+      "quickshop_sales_badge": true,
+      "quickshop_sales_badge_style": "percentile_save",
+      "quickshop_ratings_reviews": true,
+      "quickshop_enable_social_sharing": true,
+      "product_cart_redirect": false,
+      "show_breadcrumbs": true,
+      "quickshop_show_vendor": true,
+      "sections": {
+        "static-header": {
+          "type": "static-header",
+          "blocks": {
+            "1517255946962": {
+              "type": "meganav_images",
+              "settings": {
+                "position_1": "last",
+                "size_1": "large",
+                "position_2": "first",
+                "size_2": "small"
+              }
+            },
+            "1572476394007": {
+              "type": "multi_column_menu",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1517255946962",
+            "1572476394007"
+          ],
+          "settings": {
+            "sticky_header": true,
+            "full_width_header": false,
+            "logo_height": 40,
+            "logo_width": 150,
+            "filter_search_by": "disabled",
+            "enable_live_search": true,
+            "show_mobile_search_bar": false,
+            "enable_live_search_images": true,
+            "quick_links": ""
+          }
+        },
+        "1520634789686": {
+          "type": "dynamic-featured-product",
+          "settings": {
+            "gallery_aspect_ratio": "natural",
+            "gallery_image_crop": false,
+            "gallery_thumbnail_position": "below",
+            "gallery_video_autoplay": true,
+            "gallery_video_looping": true,
+            "gallery_hover_zoom": "disabled"
+          }
+        },
+        "1517239645202": {
+          "type": "dynamic-search",
+          "settings": {
+            "title": "Tech worth searching for",
+            "text": "",
+            "placeholder": "What are you looking for?",
+            "filter_search_by": "disabled",
+            "enable_live_search": true,
+            "enable_live_search_images": true,
+            "show-overlay": false,
+            "color": "rgba(0,0,0,0)",
+            "background": "#ffffff",
+            "opacity": 50
+          }
+        },
+        "static-blog": {
+          "type": "static-blog",
+          "settings": {
+            "show_rss_link": true,
+            "show_date": true,
+            "show_author": true,
+            "show_excerpt": true,
+            "featured_post": "",
+            "posts_per_page_range": 9
+          }
+        },
+        "1493143038057": {
+          "type": "dynamic-promo-mosaic",
+          "blocks": {
+            "1493143038057-0": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "#000000",
+                "opacity": 5
+              }
+            },
+            "1493143038057-1": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "rgba(0,0,0,0)",
+                "opacity": 50
+              }
+            },
+            "1493143038057-2": {
+              "type": "promotion",
+              "settings": {
+                "color": "#fffcfc",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "",
+                "opacity": 50
+              }
+            },
+            "1493143583401": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "",
+                "opacity": 50
+              }
+            },
+            "75ed4dc2-c69e-40a1-a22d-23955feaf160": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "",
+                "opacity": 50
+              }
+            }
+          },
+          "block_order": [
+            "1493143038057-0",
+            "1493143038057-1",
+            "1493143038057-2",
+            "1493143583401",
+            "75ed4dc2-c69e-40a1-a22d-23955feaf160"
+          ],
+          "settings": {
+            "title": "",
+            "section_height": "small",
+            "text_alignment": "bottom-left",
+            "maintain_aspect_ratio": false,
+            "compress_blocks": true
+          }
+        },
+        "static-footer": {
+          "type": "static-footer",
+          "blocks": {
+            "1493171899575": {
+              "type": "social_accounts",
+              "settings": {
+              }
+            },
+            "static-footer-0": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "1498182586280": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "1498182572847": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "static-footer-1": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1493171899575",
+            "static-footer-0",
+            "1498182586280",
+            "1498182572847",
+            "static-footer-1"
+          ],
+          "settings": {
+            "payment_icons": false,
+            "show_locale_selector": true,
+            "show_currency_selector": true
+          }
+        },
+        "static-collection": {
+          "type": "static-collection",
+          "blocks": {
+            "1498186879532": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "1498186836236": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "1572651808624": {
+              "type": "menu",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1498186879532",
+            "1498186836236",
+            "1572651808624"
+          ],
+          "settings": {
+            "show_collection_image": true,
+            "products_per_page_range": 24,
+            "products_per_row": "4",
+            "sort_by": true,
+            "grid_list": true,
+            "default_view": "list-view"
+          }
+        },
+        "1493163784784": {
+          "type": "dynamic-featured-collection",
+          "settings": {
+            "layout": "grid",
+            "product_count": 5,
+            "cta_button_style": "primary"
+          }
+        },
+        "1493171740659": {
+          "type": "dynamic-blog-posts",
+          "settings": {
+            "title": "",
+            "blog": "news",
+            "show_date": true,
+            "show_author": true,
+            "show_excerpt": true
+          }
+        },
+        "static-product": {
+          "type": "static-product",
+          "settings": {
+            "gallery_aspect_ratio": "natural",
+            "gallery_image_crop": false,
+            "gallery_thumbnail_position": "below",
+            "gallery_video_autoplay": true,
+            "gallery_video_looping": true,
+            "gallery_hover_zoom": "disabled",
+            "gallery_click_to_zoom": "always"
+          }
+        },
+        "1540247561673": {
+          "type": "dynamic-promo-grid",
+          "blocks": {
+            "1540247561673-1": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "rgba(0,0,0,0)",
+                "opacity": 50
+              }
+            },
+            "4728e5cd-f0af-46af-b27f-e8720b4b38a4": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "rgba(0,0,0,0)",
+                "opacity": 50
+              }
+            },
+            "c3faa30f-4dd3-4ee8-a797-74974c49c96a": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "",
+                "opacity": 50
+              }
+            },
+            "508dc09f-4352-4c7e-a2d1-fcf41d54b02a": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": true,
+                "background": "#000000",
+                "opacity": 10
+              }
+            },
+            "e402cfbd-00b6-439a-9256-76081b8cfe7d": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "",
+                "opacity": 50
+              }
+            },
+            "1540247561673-0": {
+              "type": "promotion",
+              "settings": {
+                "color": "#ffffff",
+                "button_style": "primary",
+                "show_overlay": false,
+                "background": "#000000",
+                "opacity": 5
+              }
+            }
+          },
+          "block_order": [
+            "1540247561673-1",
+            "4728e5cd-f0af-46af-b27f-e8720b4b38a4",
+            "c3faa30f-4dd3-4ee8-a797-74974c49c96a",
+            "508dc09f-4352-4c7e-a2d1-fcf41d54b02a",
+            "e402cfbd-00b6-439a-9256-76081b8cfe7d",
+            "1540247561673-0"
+          ],
+          "settings": {
+            "section_height": "medium",
+            "section_columns": 3,
+            "text_alignment": "top-left"
+          }
+        },
+        "static-announcement": {
+          "type": "static-announcement",
+          "settings": {
+            "show_announcement": false,
+            "homepage_announcement": false,
+            "announcement_color": "#ffffff",
+            "announcement_background": "#123570"
+          }
+        },
+        "static-product-recommendations": {
+          "type": "static-product-recommendations",
+          "settings": {
+            "show_product_recommendations": true
+          }
+        },
+        "static-product-reviews": {
+          "type": "static-product-reviews",
+          "settings": {
+          }
+        },
+        "static-recently-viewed": {
+          "type": "static-recently-viewed",
+          "settings": {
+            "enable_recently_viewed_products": true
+          }
+        },
+        "16148873141aeef74c": {
+          "type": "dynamic-highlights-banner",
+          "blocks": {
+            "16148873141aeef74c-0": {
+              "type": "highlight",
+              "settings": {
+              }
+            },
+            "16148873141aeef74c-1": {
+              "type": "highlight",
+              "settings": {
+              }
+            },
+            "16148873141aeef74c-2": {
+              "type": "highlight",
+              "settings": {
+              }
+            },
+            "b5dd1425-9d82-4afb-96d4-98a0c65f48d6": {
+              "type": "highlight",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "16148873141aeef74c-0",
+            "16148873141aeef74c-1",
+            "16148873141aeef74c-2",
+            "b5dd1425-9d82-4afb-96d4-98a0c65f48d6"
+          ],
+          "settings": {
+            "section_spacing": false,
+            "section_width": "full-width",
+            "icon_layout": "left",
+            "color": "#212121",
+            "icon_color": "#000000",
+            "background_color": "#f8f8f8",
+            "mobile_layout": "slider"
+          }
+        },
+        "16148876196818e98f": {
+          "type": "dynamic-collection-list",
+          "blocks": {
+            "16148876196818e98f-1": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "16148876196818e98f-0": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "c6bff024-c5ba-478c-9e72-2a037456daa9": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "16148876196818e98f-2": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "c1ec3c44-4680-4036-a8c1-7b081d9e42ca": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "16148876196818e98f-3": {
+              "type": "collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "16148876196818e98f-1",
+            "16148876196818e98f-0",
+            "c6bff024-c5ba-478c-9e72-2a037456daa9",
+            "16148876196818e98f-2",
+            "c1ec3c44-4680-4036-a8c1-7b081d9e42ca",
+            "16148876196818e98f-3"
+          ],
+          "settings": {
+            "thumbnail_columns_desktop": 6,
+            "thumbnail_columns_mobile": 3,
+            "cta_button_style": "primary"
+          }
+        },
+        "1614888648117eaaca": {
+          "type": "dynamic-testimonials",
+          "blocks": {
+            "1614888648117eaaca-0": {
+              "type": "testimonial",
+              "settings": {
+              }
+            },
+            "1614888648117eaaca-2": {
+              "type": "testimonial",
+              "settings": {
+              }
+            },
+            "e16e80d1-1eca-47e7-b874-a5c192897f2c": {
+              "type": "testimonial",
+              "settings": {
+              }
+            },
+            "1614888648117eaaca-1": {
+              "type": "testimonial",
+              "settings": {
+              }
+            },
+            "ca53594b-553b-49f8-b7aa-e6eab8ebfb12": {
+              "type": "testimonial",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1614888648117eaaca-0",
+            "1614888648117eaaca-2",
+            "e16e80d1-1eca-47e7-b874-a5c192897f2c",
+            "1614888648117eaaca-1",
+            "ca53594b-553b-49f8-b7aa-e6eab8ebfb12"
+          ],
+          "settings": {
+            "image_crop": "rounded",
+            "text_size": "medium"
+          }
+        },
+        "1614889820dc29d9d9": {
+          "type": "dynamic-shoppable-image",
+          "blocks": {
+            "1614889820dc29d9d9-0": {
+              "type": "hotspot",
+              "settings": {
+                "x_axis": 31,
+                "y_axis": 87
+              }
+            },
+            "1614889820dc29d9d9-1": {
+              "type": "hotspot",
+              "settings": {
+                "x_axis": 48,
+                "y_axis": 60
+              }
+            },
+            "1614889820dc29d9d9-2": {
+              "type": "hotspot",
+              "settings": {
+                "x_axis": 93,
+                "y_axis": 95
+              }
+            },
+            "0920a93f-9d1b-47de-bf41-520a560a4bf1": {
+              "type": "hotspot",
+              "settings": {
+                "x_axis": 90,
+                "y_axis": 23
+              }
+            },
+            "056c4860-f12b-4dee-a3f1-a4ae9c8ccb93": {
+              "type": "hotspot",
+              "settings": {
+                "x_axis": 72,
+                "y_axis": 81
+              }
+            }
+          },
+          "block_order": [
+            "1614889820dc29d9d9-0",
+            "1614889820dc29d9d9-1",
+            "1614889820dc29d9d9-2",
+            "0920a93f-9d1b-47de-bf41-520a560a4bf1",
+            "056c4860-f12b-4dee-a3f1-a4ae9c8ccb93"
+          ],
+          "settings": {
+            "image_width": "two-thirds",
+            "textbox_button_style": "primary",
+            "textbox_text_alignment": "left",
+            "textbox_text_position": "right"
+          }
+        },
+        "1614958013d7fa3cc2": {
+          "type": "dynamic-logo-list",
+          "blocks": {
+            "1614958013d7fa3cc2-1": {
+              "type": "logo",
+              "settings": {
+              }
+            },
+            "1614958013d7fa3cc2-0": {
+              "type": "logo",
+              "settings": {
+              }
+            },
+            "1614958013d7fa3cc2-3": {
+              "type": "logo",
+              "settings": {
+              }
+            },
+            "1614958013d7fa3cc2-2": {
+              "type": "logo",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1614958013d7fa3cc2-1",
+            "1614958013d7fa3cc2-0",
+            "1614958013d7fa3cc2-3",
+            "1614958013d7fa3cc2-2"
+          ],
+          "settings": {
+            "title": "Tech From Top Brands"
+          }
+        },
+        "1615570666e22db6b4": {
+          "type": "pxs-image-with-text-overlay",
+          "settings": {
+            "section_height": "small",
+            "content_position": "center-left",
+            "color": "#1d252c",
+            "overlay_background": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1615909753bb5c022b": {
+          "type": "dynamic-featured-collection",
+          "blocks": {
+            "74cae1fc-d982-4c56-bf63-ab697b42e5ae": {
+              "type": "title_card",
+              "settings": {
+                "horizontal_size": "1",
+                "vertical_size": "2",
+                "text_alignment": "center-center",
+                "text_color": "#ffffff",
+                "overlay_color": "#000000",
+                "overlay_opacity": 40
+              }
+            }
+          },
+          "block_order": [
+            "74cae1fc-d982-4c56-bf63-ab697b42e5ae"
+          ],
+          "settings": {
+            "layout": "grid",
+            "product_count": 8,
+            "cta_button_style": "primary"
+          }
+        },
+        "static-article": {
+          "type": "static-article",
+          "settings": {
+            "featured_image_width": "full-width",
+            "show_date": true,
+            "show_author": true,
+            "use_share_buttons": true
+          }
+        },
+        "static-list-collections": {
+          "type": "static-list-collections",
+          "settings": {
+            "thumbnail_columns_desktop": 4,
+            "thumbnail_columns_mobile": 3
+          }
+        }
+      },
+      "content_for_index": [
+        "16148873141aeef74c",
+        "1493143038057",
+        "16148876196818e98f",
+        "1493163784784",
+        "1614889820dc29d9d9",
+        "1520634789686",
+        "1614958013d7fa3cc2",
+        "1540247561673",
+        "1615909753bb5c022b",
+        "1614888648117eaaca",
+        "1615570666e22db6b4",
+        "1493171740659",
+        "1517239645202"
+      ]
+    }
+  }
+}

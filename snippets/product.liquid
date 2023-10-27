@@ -1,0 +1,1150 @@
+{% comment %}
+  @param product {Object}
+    The product object
+
+  @param layout {String}
+    The layout type
+
+  @param is_product_modal {Boolean}
+    Is the snippet being loaded in a Quick shop
+
+  @param is_featured_product {Boolean}
+    Is the snippet being loaded in a Featured product
+
+  @param onboarding {Boolean}
+    Is there onboarding content
+
+  @param show_dynamic_checkout_button {Boolean}
+    If true, show dynamic checkout button
+
+  @param select_first_available_variant {Boolean}
+    If true, select the first available variant
+
+  @param gallery_aspect_ratio {String}
+    This is the gallery aspect ratio, can be one of 'natural', 'short', 'square', 'long'
+
+  @param gallery_thumbnail_position {String}
+    This is the gallery thumbnail position, can be one of 'below', or 'left'
+
+  @param gallery_image_crop {Boolean}
+    Whether to crop images
+
+  @param gallery_hover_zoom {String}
+    This is the hover zoom setting, which is either 'disabled', 'separate', or 'replace'
+
+  @param gallery_click_to_zoom {String}
+    This is the click to zoom setting, which is either 'disabled', 'mobile', 'desktop', or 'always'
+{% endcomment %}
+
+{% assign onboarding = onboarding | default: false %}
+{% assign layout = layout | default: null %}
+{% assign is_featured_product = is_featured_product | default: false %}
+
+{% if layout == 'layout--three-col' %}
+  {% assign product_form = true %}
+{% else %}
+  {% assign product_form = false %}
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'form' %}
+        {% assign product_form = true %}
+    {% endcase %}
+  {% endfor %}
+{% endif %}
+
+{% liquid
+  assign selected_variant = product.selected_variant
+
+  if product.variants.size == 1 or select_first_available_variant or product_form == false
+    assign selected_variant = product.selected_or_first_available_variant
+  endif
+%}
+
+{% assign compare_at_price = selected_variant.compare_at_price %}
+{% assign price = selected_variant.price %}
+{% assign sku = selected_variant.sku %}
+{% assign product_available = product.available %}
+
+{% comment %}For a potential divider in the product.description we need to split the content{% endcomment %}
+{% assign readmore_split = product.description | split: '<!-- more -->' %}
+
+{% if onboarding %}
+  {% assign compare_at_price = 2999 %}
+  {% assign price = 1999 %}
+{% endif %}
+
+{% assign on_sale = false %}
+{% if compare_at_price > price %}
+  {% assign on_sale = true %}
+{% endif %}
+
+{% assign consistent_saved = false %}
+{% capture consistent_savings %}
+  {%
+    render 'consistent-savings',
+    variants: product.variants,
+    on_sale: on_sale
+  %}
+{% endcapture %}
+{% if consistent_savings contains 'true' %}
+  {% assign consistent_saved = true %}
+{% endif %}
+
+{%- capture share_buttons -%}
+  {% assign social_image = false %}
+  {% if product.featured_image %}
+    {% assign social_image = product.featured_image | img_url: '1024x' %}
+  {% endif %}
+  {% assign social_url = shop.url | append: product.url %}
+  {%-
+    render 'share-buttons',
+    snippet_title: 'general.share_buttons.title',
+    social_image: social_image,
+    social_title: product.title,
+    social_url: social_url
+  -%}
+{%- endcapture -%}
+
+<article class="product--outer">
+  {% render 'product-gallery',
+    product: product,
+    select_first_available_variant: select_first_available_variant,
+    aspect_ratio: gallery_aspect_ratio,
+    thumbnail_position: gallery_thumbnail_position,
+    image_crop: gallery_image_crop,
+    gallery_click_to_zoom: gallery_click_to_zoom,
+    gallery_hover_zoom: gallery_hover_zoom
+  %}
+
+  <div class="product-main">
+    <div class="product-details" data-product-details>
+      {% for block in section.blocks %}
+        <div
+          class="
+            product-block
+            product-block--{{ block.type }}
+            {% if forloop.first == true -%}
+              product-block--first
+            {% endif %}
+          "
+          {{ block.shopify_attributes }}
+        >
+          {% case block.type %}
+            {% when 'complementary_products' %}
+              {%
+                render 'complementary-products',
+                product: product,
+                block: block,
+              %}
+
+            {% when 'title' %}
+              {% if is_product_modal %}
+                <h2 class="product-title">
+                  <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
+                </h2>
+              {% else %}
+                {% if template == 'index' %}
+                  <h2 class="product-title">
+                {% else %}
+                  <h1 class="product-title">
+                {% endif %}
+                {% unless onboarding %}
+                  {{ product.title }}
+                {% else %}
+                  {{ 'onboarding.product.title' | t }}
+                {% endunless %}
+                {% if template == 'index' %}
+                  </h2>
+                {% else %}
+                  </h1>
+                {% endif %}
+              {% endif %}
+
+            {% when 'sku' %}
+              {% unless onboarding %}
+                <div
+                  class="
+                    product-sku
+                    {% if sku == empty %}product-sku--empty{% endif %}
+                  "
+                >
+                  {{ 'product.general.sku_html' | t: sku: sku | strip_newlines }}
+                </div>
+              {% endunless %}
+
+              {% if product.tags contains 'Luxor Collection' %}
+                <a style="" href="#" class="product-tag-btn" role="button" aria-expanded="false">Non-Returnable</a>
+              {% endif %}
+            
+             {% if product.tags contains 'Luxor Collection' %}
+                <a style="" href="#" class="product-tag-btn" role="button" aria-expanded="false">Made To Order</a>
+              {% endif %}
+
+            {% if product.tags contains 'Luxor Collection' %}
+                <a style="" href="#" class="product-tag-btn" role="button" aria-expanded="false">Plaster</a>
+              {% endif %}
+            
+            
+              {% if product.tags contains 'Priming and Sanding Available' %}
+                <a style=""href="https://mouldings.com/pages/primingandsanding" class="product-tag-btn" role="button" aria-expanded="false"
+                  >Priming and Sanding Available</a
+                >
+              {% endif %}
+              {% if product.tags contains 'FREE SHIPPING' %}
+                <a style="" href="#" class="product-tag-btn" role="button" aria-expanded="false">Free Shipping</a>
+              {% endif %}
+              {% if product.tags contains 'Made in America' %}
+                <a style=""href="#" class="product-tag-btn" role="button" aria-expanded="false">Made in America</a>
+              {% endif %}
+              {% if product.tags contains 'Collections:Traditional Mouldings'
+                or product.tags contains 'Collections:Mon Reale Mouldings'
+                or product.tags contains 'Collections:Mon Reale Mouldings'
+                or product.tags contains 'Collections:Ornamentally Embossed Mouldings'
+              %}
+                <a style="" href="#" class="product-tag-btn" role="button" aria-expanded="false">Sold By Linear Foot</a>
+              {% endif %}
+              {% if product.tags contains 'Width: 12"W to 92"L' %}
+                <a style=""href="https://mouldings.com/products/tambour-sample-kit" class="product-tag-btn" role="button" aria-expanded="false"
+                  >Sample Kit Available</a
+                >
+              {% endif %}
+              {% if product.tags contains 'Width: 12"W to 92"L' %}
+                <a style="" href="#" class="product-tag-btn" role="button" aria-expanded="false">Flexible</a>
+              {% endif %}
+              {% if product.tags contains 'Acoustic Slat Panel' %}
+                <a style="" href="#" class="product-tag-btn" role="button" aria-expanded="false"
+                  >Sample Kit Available</a
+                >
+              {% endif %}
+              {% if product.tags contains 'Canada' %}
+                <a style="" href="#" class="product-tag-btn" role="button" aria-expanded="false"
+                  >Made in North America</a
+              {% endif %}
+                             
+            {% when 'vendor' %}
+              {% if product.vendor != blank or onboarding %}
+                <div class="product-vendor">
+                  {% unless onboarding %}
+                    {%- capture vendor_link -%}
+                      {{ product.vendor | link_to_vendor }}
+                    {%- endcapture -%}
+                    {{ 'product.general.by_vendor_html' | t: vendor_link: vendor_link }}
+                  {% else %}
+                    {{ 'onboarding.product.by_vendor' | t }}
+                  {% endunless %}
+                </div>
+              {% endif %}
+
+            {% when 'inventory_status' %}
+              {% for variant in product.variants %}
+                {% capture stock_attributes %}
+                  data-stock-level
+                  data-stock-variant-id="{{ variant.id }}"
+                  data-stock-variant-selected="{% if variant == selected_variant %}true{% else %}false{% endif %}"
+                {% endcapture %}
+
+                {%
+                  render 'product-stock-level',
+                  attr: stock_attributes,
+                  inventory_display: block.settings.inventory_display,
+                  inventory_transfer: block.settings.inventory_transfer_notice,
+                  variant: variant,
+                  verbose: true,
+                %}
+              {% endfor %}
+
+            {% when 'rating' %}
+              {% if product.metafields.reviews.rating.value != blank %}
+                <div class="product__rating rating">
+                  {%
+                    render 'rating-stars',
+                    value: product.metafields.reviews.rating.value.rating,
+                    scale_max: product.metafields.reviews.rating.value.scale_max,
+                  %}
+
+                  <p class="rating__text">
+                    <span aria-hidden="true">
+                      {{ product.metafields.reviews.rating.value }} /
+                      {{ product.metafields.reviews.rating.value.scale_max }}
+                    </span>
+                  </p>
+
+                  <p class="rating__count">
+                    <span aria-hidden="true">
+                      {{ product.metafields.reviews.rating_count }}
+                      {% if product.metafields.reviews.rating_count > 1 %}
+                        {{ 'general.accessibility.star_reviews_text' | t }}
+                      {% else %}
+                        {{ 'general.accessibility.star_review_text' | t }}
+                      {% endif %}
+                    </span>
+                  </p>
+                </div>
+              {% endif %}
+
+            {% when 'key_details' %}
+              {% unless block.settings.title == blank and block.settings.text == blank %}
+                <div
+                  class="key-details"
+                  style="
+                    --key-details-text-color: {{ block.settings.text_color }};
+                    --key-details-icon-color: {{ block.settings.icon_color }};
+                    --key-details-background-color: {{ block.settings.background_color }};
+                  "
+                >
+                  {% if block.settings.image %}
+                    {%
+                      render 'rimg',
+                      img: block.settings.image,
+                      class: 'key-details__image',
+                      size: '50x50',
+                      lazy: true,
+                      focal_point: block.settings.image.presentation.focal_point,
+                    %}
+                  {% else %}
+                    {%
+                      render 'icon-library',
+                      id: block.settings.icon,
+                      icon_class: 'key-details__icon',
+                    %}
+                  {% endif %}
+
+                  <div class="key-details__wrapper">
+                    {% if block.settings.title != blank %}
+                      <p class="key-details__heading">
+                        {{ block.settings.title | escape }}
+                      </p>
+                    {% endif %}
+
+                    {% if block.settings.text != blank %}
+                      {{ block.settings.text }}
+                    {% endif %}
+                  </div>
+                </div>
+              {% endunless %}
+
+            {% when 'price' %}
+              <div
+                class="product-pricing"
+                aria-live="polite"
+                data-product-pricing
+              >
+                {%
+                  render 'product-badge',
+                  product: product,
+                  class_root: 'product',
+                  product_available: product_available,
+                  price: price,
+                  price_varies: false,
+                  compare_at_price: compare_at_price,
+                  compare_at_price_varies: false,
+                  on_sale: on_sale,
+                  show_saved: true,
+                  include_range: false,
+                  selected_variant: selected_variant,
+                %}
+
+                {% render 'product-price',
+                  product: product,
+                  class_root: 'product',
+                  price: price,
+                  price_varies: false,
+                  compare_at_price: compare_at_price,
+                  compare_at_price_varies: false,
+                  on_sale: on_sale,
+                  emphasize_price: false,
+                  show_original: true,
+                  show_range: false,
+                  include_unit_price: true,
+                  include_tax_line: true,
+                  include_hidden_price: true
+                %}
+
+                <form data-payment-terms-target style="display: none;"></form>
+              </div>
+
+            {% when 'description' %}
+              {% if readmore_split[0] != blank %}
+                <div class="product-description rte" data-product-description>
+                  {{ readmore_split[0] }}
+                </div>
+              {% endif %}
+
+            {% when 'form' %}
+              <div
+                class="product-form--regular"
+                data-product-form-regular
+              >
+                <div data-product-form-area>
+                  {% if is_product_modal %}
+                    <div data-product-quickshop-message class="product-message--container"></div>
+                  {% endif %}
+
+                  {% liquid
+                    if product.template_suffix contains 'pre-order'
+                      assign show_dynamic_checkout_button = false
+                    endif
+
+                    if product.template_suffix contains 'pre-order' and is_product_modal
+                      assign enable_local_pickup = false
+                    else
+                      assign enable_local_pickup = block.settings.enable_local_pickup
+                    endif
+                  %}
+
+                  {% unless onboarding %}
+                    {%
+                      render 'product-form',
+                      product: product,
+                      enable_local_pickup: enable_local_pickup,
+                      show_dynamic_checkout_button: show_dynamic_checkout_button,
+                      selected_variant: selected_variant,
+                      is_product_modal: is_product_modal,
+                    %}
+                  {% endunless %}
+                </div>
+              </div>
+
+              {% if product.tags contains 'Collections:Tambour Panels'
+                or product.tags contains 'Decorative Wall Panels'%}
+
+ <div style="margin-top: 30px;">
+        <div style="background-color: #626a81; padding: 12px; border-radius: 4px; text-align: center;">
+        <p style="color: white; font-weight: bold;">Returns are F.O.B. Buyer and are subject to a 20% restocking fee.</p>
+        <p style="color: white;">Need Help? Call <a href="tel:18005580119" style="color: white; text-decoration: underline;">1-800-558-0119</a> or <a href="mailto:sales@whiteriver.com" style="color: white; text-decoration: underline;">email</a> sales@whiteriver.com</p>
+    </div>
+</div>           
+                
+                <p>Our panel calculator is designed to precisely determine the quantity of panels you'll need for any project, ensuring you have just the right amount.</p>    
+                <div class="box-btn-row" style="margin-top: 20px;">
+                  <div class="box-calc-row">
+                    <table width="100%" border="0">
+                      <tr>
+                        <td style="width: 50%;">Need help calculating box quantity?</td>
+                        <td style="width: 50%;">
+                          <a href="#/calculator/646c04dd6e9dcc002992ef1a" data-calculatorid="646c04dd6e9dcc002992ef1a"
+                            >Panel Calculator</a
+                          >
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <p>Join our Tambour Trade Program today and gain access to a world of exceptional benefits designed exclusively for our valued trade customers. </p> 
+                <div class="box-btn-row">
+                  <div class="box-calc-row">
+                    <table width="100%" border="0">
+                      <tr>
+                        <td style="width: 50%;">Tambour Trade Program</td>
+                        <td style="width: 50%;">
+                          <a href="https://mouldings.com/pages/tambour-trade-program" >Sign Up Today</a
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <p>Experience the transformation and ensure they perfectly match your projects aesthetic before buying.</p>     
+                <div class="box-btn-row">
+                  <div class="box-calc-row">
+                    <table width="100%" border="0">
+                      <tr>
+                        <td style="width: 50%;"> Try the Panel Visualizer</td>
+                        <td style="width: 50%;">
+                           <a href="https://www.mouldings.com/pages/panel-visualizer#visualizer">Open Visualizer</a> 
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <script type="application/javascript" src="https://d35so7k19vd0fx.cloudfront.net/production/integration/entry-point.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const entryPoint = new window.WEntryPoint({
+           token: "lCoSjY3DHwxVJFKSsdfeAhSfdqfk6T2u0qKq2q4X0yRKaYLrj570NBqTh9em",
+           vendorCode: '{{ sku }}',
+           element: document.getElementsByTagName("body")[0]
+       });
+       entryPoint.render({className: 'wizart-product-page'});
+       
+       $($('.box-calc-row').find('a[href$="#visualizer"]')).click(function(e){
+             e.preventDefault();
+             $('.wizart-product-page').trigger('click'); 
+      });
+});
+</script>
+
+<style>
+     .wizart-product-page {display: none!important;}
+</style>
+
+{% endif %}
+          
+{% if product.tags contains 'Collections:Traditional Mouldings'
+                or product.tags contains 'Priming and Sanding Available'
+              %}
+     <p>If you are an existing customer or in the design, cabinet or millwork industry and pay by credit card or terms and are interested in establishing an account to access the Millwork Trade Store or buy direct, please complete the Trade form to apply for an account. </p>          
+  <div class="box-btn-row" style="margin-top: 20px;">
+                  <div class="box-calc-row">
+                    <table width="100%" border="0">
+                      <tr>
+                        <td style="width: 50%;">Apply for Trade Account for discount pricing.</td>
+                        <td style="width: 50%;">
+                          <a href="https://mouldings.com/pages/trade-application">Apply Now</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+             <p>We offer three Priming and Sanding options with varied pricing based on linear feet and moulding type. We utilize Sherwin-Williams Universal Primer. These services save you time and reduce on-site preparation costs before installation.</p> 
+                <div class="box-btn-row" style="margin-top: 20px;">
+                  <div class="box-calc-row">
+                    <table width="100%" border="0">
+                      <tr>
+                        <td style="width: 50%;">Priming and Sanding Available</td>
+                        <td style="width: 50%;">
+                          <a href="https://mouldings.com/pages/primingandsanding">Request Quote</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                      
+
+                
+{% endif %}
+              
+            
+            
+            {% if product.tags contains 'Acoustic Slat Panel' or product.tags contains 'Mosaic Wood Tiles' %}
+             
+              <div style="margin-top: 30px;">
+        <div style="background-color: #626a81; padding: 12px; border-radius: 4px; text-align: center;">
+        <p style="color: white; font-weight: bold;">Returns are F.O.B. Buyer and are subject to a 20% restocking fee.</p>
+        <p style="color: white;">Need Help? Call <a href="tel:18005580119" style="color: white; text-decoration: underline;">1-800-558-0119</a> or <a href="mailto:sales@whiteriver.com" style="color: white; text-decoration: underline;">email</a> sales@whiteriver.com</p>
+    </div>
+</div>             
+              
+              <p>Our panel calculator is designed to precisely determine the quantity of panels you'll need for any project, ensuring you have just the right amount.</p>    
+              <div class="box-btn-row" style="margin-top: 20px;">
+                  <div class="box-calc-row">
+                    <table width="100%" border="0">
+                      <tr>
+                        <td style="width: 50%;">Need help calculating box quantity?</td>
+                        <td style="width: 50%;"><a href="#/calculator/64b1a0f883d726001eae902c" data-calculatorid="64b1a0f883d726001eae902c">Panel Calculator</a>
+                      </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              <p>Experience the quality and craftsmanship firsthand by ordering our Acoustic Sample Kit, ensuring you make the most informed choice for your design needs.</p> 
+              <div class="box-btn-row">
+                  <div class="box-calc-row">
+                    <table width="100%" border="0">
+                      <tr>
+                        <td style="width: 50%;">Order Acoustic Sample Kit</td>
+                        <td style="width: 50%;">
+                          <a href="https://mouldings.com/products/acoustic-slat-panel-sample-kit">Click To Order</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+               </div>
+ 
+              <p>Experience the transformation and ensure they perfectly match your projects aesthetic before buying.</p>      
+              <div class="box-btn-row">
+    <div class="box-calc-row">
+        <table width="100%" border="0">
+            <tr>
+                <td style="width: 50%;">Panel Visualizer</td>
+                <td style="width: 50%;">
+                    <a class="apply-now-btn" href="https://mouldings.com/products#visualizer">Open Visualizer</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<script type="application/javascript" src="https://d35so7k19vd0fx.cloudfront.net/production/integration/entry-point.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const entryPoint = new window.WEntryPoint({
+            token: "lCoSjY3DHwxVJFKSsdfeAhSfdqfk6T2u0qKq2q4X0yRKaYLrj570NBqTh9em",
+            vendorCode: '{{ sku }}',
+            element: document.getElementsByTagName("body")[0]
+        });
+        entryPoint.render({ className: 'wizart-product-page' });
+
+        $('.apply-now-btn').click(function (e) {
+            e.preventDefault();
+            $('.wizart-product-page').trigger('click');
+        });
+    });
+</script>
+
+<style>
+    .wizart-product-page { display: none !important; }
+</style>
+
+                {% endif %}
+
+              <!-- End Of Add two new buttons for all pdp pages -->
+
+              <!-- ADD TAGS -->
+              
+            {% if product.tags contains 'Collections:Traditional Mouldings'
+                or product.tags contains 'Priming and Sanding Available'
+              %}
+                
+<div style="margin-top: 30px; margin-bottom: 10px; padding-left: 20px; padding-right: 20px;">
+    <div style="background-color: #f8f8f8; padding: 12px; border-radius: 4px; text-align: left;" class="priming-sanding-blocks priming-sanding-block-2">
+        
+        <strong>White River Poplar Mouldings:</strong>
+        <ul>
+            <li>Available in random lengths from 3'-16'.</li>
+            <li>FedEx shipping: Moldings range from 36"-96".</li>
+            <li>LTL shipping: Bundles (8-12-16') include lengths from 3'-16'.</li>
+        </ul>
+        
+        <strong>Pricing:</strong>
+        <ul>
+            <li>Prices are per linear foot.</li>
+            <li>Length upcharges are not included in the base price.</li>
+        </ul>
+        
+        <strong>Returns:</strong>
+        <ul>
+            <li>F.O.B. Buyer.</li>
+            <li>Subject to a 20% restocking fee.</li>
+        </ul>
+        
+        <strong>Freight Costs:</strong>
+        <ul>
+            <li>Start at $45, varies by destination.</li>
+        </ul>
+            
+
+    </div>
+</div>
+
+                
+{% endif %}
+
+        {% if product.type == 'Carved Mouldings' and product.tags contains 'Material:Resin' %}
+<div class="box-btn-row" style="margin-top: 40px;">
+    <div class="priming-sanding-blocks priming-sanding-block-2" style="margin-top: 10px; padding-bottom: 10px;">
+
+        <strong>For Hardwood MLDs:</strong>
+        <ul>
+            <li>Priced per 8-foot piece.</li>
+        </ul>
+
+        <strong>For White River Resin MLDs:</strong>
+        <ul>
+            <li>Priced per foot.</li>
+            <li>Available in lengths from 5 to 8 feet.</li>
+            <li>Shipping costs are extra.</li>
+            <li>Resin items are custom-made and non-returnable.</li>
+        </ul>
+    </div>
+</div>
+{% endif %}
+
+
+{% if product.tags contains 'FREE SHIPPING' %}        
+
+<div style="margin-top: 30px;">
+    <div style="background-color: #626a81; padding: 12px; border-radius: 4px; text-align: center;">
+        <p style="color: white; font-weight: bold;">Returns are F.O.B. Buyer and are subject to a 20% restocking fee.</p>
+        <p style="color: white;">Need Help? Call <a href="tel:18005580119" style="color: white; text-decoration: underline;">1-800-558-0119</a> or <a href="mailto:sales@whiteriver.com" style="color: white; text-decoration: underline;">email</a> sales@whiteriver.com</p>
+    </div>
+</div>
+
+ <div style="margin-top: 30px;">
+  <p>We offer CNC capabilities for custom mouldings, arches, and more with our CAMaster and CNC Router. This boosts productivity, reduces waste, and expands our custom offerings for customers. Click below for a quote.</p>
+  <div class="box-btn-row" style="margin-top: 20px;">
+    <div class="box-calc-row">
+      <table width="100%" border="0">
+        <tr>
+          <td style="width: 50%;">CNC Machining</td>
+          <td style="width: 50%;">
+            <a href="https://mouldings.com/pages/cnc-services" title="We will get back to you in 24 hours.">Request Quote</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 30px;">
+  <p>We offer extensive millwork design services for both residential and commercial projects. We collaborate closely with you and professionals to turn your visions into reality. Click below to learn more.</p>
+  <div class="box-btn-row" style="margin-top: 20px;">
+    <div class="box-calc-row">
+      <table width="100%" border="0">
+        <tr>
+          <td style="width: 50%;">Millwork Design Service</td>
+          <td style="width: 50%;">
+            <a href="https://mouldings.com/pages/design-services" title="We will get back to you in 24 hours.">Request Quote</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>     
+
+
+  
+{% endif %}
+
+{% if product.tags contains 'Collections:Radius Corners' %}
+<div style="background-color: #626a81; padding: 10px; border-radius: 8px; text-align: center;">
+  <p style="color: white; margin-bottom: 20px;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16">
+      <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+    </svg> 
+    Freight calculated on destination with a MINIMUM of $45. If freight exceeds $45 you will be emailed a separate freight quote after the order is placed.
+  </p>
+  <p style="color: white; margin-bottom: 20px;">Returns are F.O.B. Buyer and are subject to a 20% restocking charge.</p>
+  <p style="color: white;">
+    Need Help? Call <a href="tel:18005580119" style="color: white; text-decoration: underline;">1-800-558-0119</a> or <a href="mailto:sales@whiteriver.com" style="color: white; text-decoration: underline;">email</a> sales@whiteriver.com
+  </p>
+</div>
+
+  <div style="margin-top: 30px;">
+  <p>We offer CNC capabilities for custom mouldings, arches, and more with our CAMaster and CNC Router. This boosts productivity, reduces waste, and expands our custom offerings for customers. Click below for a quote.</p>
+  <div class="box-btn-row" style="margin-top: 20px;">
+    <div class="box-calc-row">
+      <table width="100%" border="0">
+        <tr>
+          <td style="width: 50%;">CNC Machining</td>
+          <td style="width: 50%;">
+            <a href="https://mouldings.com/pages/cnc-services" title="We will get back to you in 24 hours.">Request Quote</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 30px;">
+  <p>We offer extensive millwork design services for both residential and commercial projects. We collaborate closely with you and professionals to turn your visions into reality. Click below to learn more.</p>
+  <div class="box-btn-row" style="margin-top: 20px;">
+    <div class="box-calc-row">
+      <table width="100%" border="0">
+        <tr>
+          <td style="width: 50%;">Millwork Design Service</td>
+          <td style="width: 50%;">
+            <a href="https://mouldings.com/pages/design-services" title="We will get back to you in 24 hours.">Request Quote</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>     
+  
+  {% endif %}
+
+{% if product.tags contains 'Collections:Plaster Medallions' or product.tags contains 'Luxor Collection' %}
+<div style="background-color: #626a81; padding: 20px; border-radius: 8px; text-align: center;">
+  <p style="color: white; margin-bottom: 20px;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16">
+      <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+    </svg> 
+    Items are made to order and are non-returnable. There's a minimum order amount of $300. Freight costs are determined by the destination, with a base charge of 15% of the total sale. For larger medallions, a $75 crate fee is applied. However, there's no crate fee for the Luxor Collection. For LTL (Less Than Truckload) orders, a separate shipping quote will be sent via email.
+  </p>
+  <p style="color: white;">
+    Need Help? Call <a href="tel:18005580119" style="color: white; text-decoration: underline;">1-800-558-0119</a> or <a href="mailto:sales@whiteriver.com" style="color: white; text-decoration: underline;">email</a> sales@whiteriver.com
+  </p>
+</div>
+
+ <div style="margin-top: 30px;">
+  <p>We offer CNC capabilities for custom mouldings, arches, and more with our CAMaster and CNC Router. This boosts productivity, reduces waste, and expands our custom offerings for customers. Click below for a quote.</p>
+  <div class="box-btn-row" style="margin-top: 20px;">
+    <div class="box-calc-row">
+      <table width="100%" border="0">
+        <tr>
+          <td style="width: 50%;">CNC Machining</td>
+          <td style="width: 50%;">
+            <a href="https://mouldings.com/pages/cnc-services" title="We will get back to you in 24 hours.">Request Quote</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 30px;">
+  <p>We offer extensive millwork design services for both residential and commercial projects. We collaborate closely with you and professionals to turn your visions into reality. Click below to learn more.</p>
+  <div class="box-btn-row" style="margin-top: 20px;">
+    <div class="box-calc-row">
+      <table width="100%" border="0">
+        <tr>
+          <td style="width: 50%;">Millwork Design Service</td>
+          <td style="width: 50%;">
+            <a href="https://mouldings.com/pages/design-services" title="We will get back to you in 24 hours.">Request Quote</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>     
+         
+{% endif %}
+
+  {% if product.type == 'Onlays - Composition Ornament'%}
+<div style="background-color: #626a81; padding: 20px; border-radius: 8px; text-align: center;">
+  <p style="color: white; margin-bottom: 20px;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16">
+      <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+    </svg> 
+    Made To Order, Not Returnable, Minimum Order Amount $200. Returns are F.O.B. Buyer and are subject to a 20% restocking charge. Freight calculated on destination with a minimum of 15% of the total sale. For LTL orders, a separate quote will be emailed.
+  </p>
+  <p style="color: white;">
+    Need Help? Call <a href="tel:18005580119" style="color: white; text-decoration: underline;">1-800-558-0119</a> or <a href="mailto:sales@whiteriver.com" style="color: white; text-decoration: underline;">email</a> sales@whiteriver.com
+  </p>
+</div>
+
+ <div style="margin-top: 30px;">
+  <p>We offer CNC capabilities for custom mouldings, arches, and more with our CAMaster and CNC Router. This boosts productivity, reduces waste, and expands our custom offerings for customers. Click below for a quote.</p>
+  <div class="box-btn-row" style="margin-top: 20px;">
+    <div class="box-calc-row">
+      <table width="100%" border="0">
+        <tr>
+          <td style="width: 50%;">CNC Machining</td>
+          <td style="width: 50%;">
+            <a href="https://mouldings.com/pages/cnc-services" title="We will get back to you in 24 hours.">Request Quote</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 30px;">
+  <p>We offer extensive millwork design services for both residential and commercial projects. We collaborate closely with you and professionals to turn your visions into reality. Click below to learn more.</p>
+  <div class="box-btn-row" style="margin-top: 20px;">
+    <div class="box-calc-row">
+      <table width="100%" border="0">
+        <tr>
+          <td style="width: 50%;">Millwork Design Service</td>
+          <td style="width: 50%;">
+            <a href="https://mouldings.com/pages/design-services" title="We will get back to you in 24 hours.">Request Quote</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>     
+         
+{% endif %}
+
+{% if product.tags contains 'Collections:Urethane' %}
+<div style="background-color: #626a81; padding: 20px; border-radius: 8px; text-align: center;">
+  <p style="color: white; margin-bottom: 20px;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16">
+      <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+    </svg> 
+    Returns are F.O.B. Buyer and are subject to a 20% restocking charge. <span style="color: white;">Shipping Charges are a minimum of $25 for Urethane products.</span>
+  </p>
+  <p style="color: white;">
+    Need Help? Call <a href="tel:18005580119" style="color: white; text-decoration: underline;">1-800-558-0119</a> or <a href="mailto:sales@whiteriver.com" style="color: white; text-decoration: underline;">email</a> sales@whiteriver.com
+  </p>
+</div>
+
+ <div style="margin-top: 30px;">
+  <p>We offer CNC capabilities for custom mouldings, arches, and more with our CAMaster and CNC Router. This boosts productivity, reduces waste, and expands our custom offerings for customers. Click below for a quote.</p>
+  <div class="box-btn-row" style="margin-top: 20px;">
+    <div class="box-calc-row">
+      <table width="100%" border="0">
+        <tr>
+          <td style="width: 50%;">CNC Machining</td>
+          <td style="width: 50%;">
+            <a href="https://mouldings.com/pages/cnc-services" title="We will get back to you in 24 hours.">Request Quote</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 30px;">
+  <p>We offer extensive millwork design services for both residential and commercial projects. We collaborate closely with you and professionals to turn your visions into reality. Click below to learn more.</p>
+  <div class="box-btn-row" style="margin-top: 20px;">
+    <div class="box-calc-row">
+      <table width="100%" border="0">
+        <tr>
+          <td style="width: 50%;">Millwork Design Service</td>
+          <td style="width: 50%;">
+            <a href="https://mouldings.com/pages/design-services" title="We will get back to you in 24 hours.">Request Quote</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>     
+        
+  {% endif %}       
+
+  {% if product.tags contains 'Decorative Grilles'%}
+             
+              <div style="margin-top: 30px;">
+        <div style="background-color: #626a81; padding: 12px; border-radius: 4px; text-align: center;">
+        <p style="color: white; font-weight: bold;">Returns are F.O.B. Buyer and are subject to a 20% restocking fee.</p>
+        <p style="color: white;">Need Help? Call <a href="tel:18005580119" style="color: white; text-decoration: underline;">1-800-558-0119</a> or <a href="mailto:sales@whiteriver.com" style="color: white; text-decoration: underline;">email</a> sales@whiteriver.com</p>
+    </div>
+</div>             
+  <div style="margin-top: 30px;">
+  <p>We offer CNC capabilities for custom mouldings, arches, and more with our CAMaster and CNC Router. This boosts productivity, reduces waste, and expands our custom offerings for customers. Click below for a quote.</p>
+  <div class="box-btn-row" style="margin-top: 20px;">
+    <div class="box-calc-row">
+      <table width="100%" border="0">
+        <tr>
+          <td style="width: 50%;">CNC Machining</td>
+          <td style="width: 50%;">
+            <a href="https://mouldings.com/pages/cnc-services" title="We will get back to you in 24 hours.">Request Quote</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 30px;">
+  <p>We offer extensive millwork design services for both residential and commercial projects. We collaborate closely with you and professionals to turn your visions into reality. Click below to learn more.</p>
+  <div class="box-btn-row" style="margin-top: 20px;">
+    <div class="box-calc-row">
+      <table width="100%" border="0">
+        <tr>
+          <td style="width: 50%;">Millwork Design Service</td>
+          <td style="width: 50%;">
+            <a href="https://mouldings.com/pages/design-services" title="We will get back to you in 24 hours.">Request Quote</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>     
+        
+  {% endif %}         
+        
+            {% when 'text' %}
+              <div class="product-text">
+                {{ block.settings.text }}
+              </div>
+
+            {% when 'share' %}
+              <div class="product-share">
+                {{ share_buttons | strip_newlines }}
+              </div>
+
+            {% when 'custom-liquid' %}
+              {% if block.settings.custom_liquid != blank %}
+                <div class="custom-liquid">
+                  {{ block.settings.custom_liquid }}
+                </div>
+              {% endif %}
+
+            {% when 'tabs' %}
+              {% if block.settings.show_tabs_below_product_gallery %}
+                {% assign tabs_below_product_gallery = true %}
+              {% else %}
+                {% assign tabs_below_product_gallery = false %}
+              {% endif %}
+
+              {% capture product_tabs %}
+                {% assign tab_counter = 1 %}
+
+                <div class="pxu-tabs pxu-tabs--bottom-{{ tabs_below_product_gallery }}">
+                  {% if block.settings.show_product_description %}
+                    <input
+                      class="tab-radio"
+                      id="description-tab-{{ section.id }}"
+                      name="{{ section.id }}"
+                      tabindex="0"
+                      type="radio"
+                      checked="checked"
+                    >
+
+                    <label class="tab-label" for="description-tab-{{ section.id }}">
+                      {{ 'product.onboarding.tab_title'| t }}
+                    </label>
+
+                    <div class="tab-panel" tabindex="0">
+                      {% if onboarding %}
+                        {{ 'product.onboarding.tab_content'| t }}
+                      {% else %}
+                        {% if product.description != blank %}
+                          {{ product.description }}
+                        {% else %}
+                          {{ 'product.onboarding.tab_content'| t }}
+                        {% endif %}
+                      {% endif %}
+                    </div>
+                  {% endif %}
+
+                  {% for i in (1..3) %}
+                    {% assign tab_text_key = 'tab_text_' | append: i %}
+                    {% assign tab_heading_key = 'tab_heading_' | append: i %}
+                    {% assign tab_heading_value = block.settings[tab_heading_key] %}
+                    {% assign tab_text_value = block.settings[tab_text_key] %}
+
+                    {% if tab_heading_value != blank %}
+                      <input
+                        class="tab-radio"
+                        id="tab-{{ i }}-{{ section.id }}"
+                        name="{{ section.id }}"
+                        tabindex="0"
+                        type="radio"
+                        {% if tab_counter == 1 and block.settings.show_product_description == false %}
+                          checked
+                        {% endif %}
+                      >
+
+                      <label class="tab-label" for="tab-{{ i }}-{{ section.id }}">
+                        {{ tab_heading_value | escape }}
+                      </label>
+
+                      <div class="tab-panel" tabindex="0">
+                        {{ tab_text_value }}
+                      </div>
+
+                      {% assign tab_counter = tab_counter | plus: 1 %}
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              {% endcapture %}
+
+              {% if block.settings.show_tabs_below_product_gallery != true %}
+                {{ product_tabs }}
+              {% endif %}
+
+            {% when 'collapsible-tab' %}
+              {% if block.settings.collapsible_tab_heading != blank %}
+                <details class="collapsible-tab">
+                  <summary class="collapsible-tab__heading">
+                    <span>{{ block.settings.collapsible_tab_heading | escape }}</span>
+                    {% render 'icon-chevron-down-small' %}
+                  </summary>
+
+                  {% if block.settings.collapsible_tab_text != blank %}
+                    <div class="collapsible-tab__text">
+                      {{ block.settings.collapsible_tab_text }}
+                    </div>
+                  {% endif %}
+                </details>
+              {% endif %}
+
+            {% when '@app' %}
+              <div class="product-app">
+                {% render block %}
+              </div>
+
+            {% when 'view-product-link' %}
+              <a
+                class="product-link"
+                href="{{ product.url | within: collection }}"
+                data-product-details-link
+              >
+                {{ block.settings.text | escape }}
+              </a>
+
+            {% when 'request_quote' %}
+              {%
+                render 'product-request-form',
+                product: product,
+                heading: block.settings.title,
+                show_quantity: block.settings.show_quantity,
+                show_message: block.settings.show_message,
+                selected_variant: selected_variant,
+                sku: sku,
+              %}
+          {% endcase %}
+        </div>
+      {% endfor %}
+
+      {% if layout == 'layout--three-col' %}
+        <div class="product-form--regular" data-product-form-regular>
+          <div data-product-form-area>
+            {% if is_product_modal %}
+              <div data-product-quickshop-message class="product-message--container"></div>
+            {% endif %}
+
+            {% liquid
+              if product.template_suffix contains 'pre-order'
+                assign show_dynamic_checkout_button = false
+              endif
+
+              if product.template_suffix contains 'pre-order' and is_product_modal
+                assign enable_local_pickup = false
+              else
+                assign enable_local_pickup = section.settings.enable_local_pickup
+              endif
+            %}
+
+            {% unless onboarding %}
+              {%
+                render 'product-form',
+                product: product,
+                enable_local_pickup: enable_local_pickup,
+                show_dynamic_checkout_button: show_dynamic_checkout_button,
+                selected_variant: selected_variant,
+                is_product_modal: is_product_modal,
+              %}
+            {% endunless %}
+
+            {% if section.settings.social_share and is_product_modal == false %}
+              {{ share_buttons | strip_newlines }}
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if layout == 'layout--three-col' %}
+    <div class="product-form--alt" data-product-form-alt></div>
+  {% endif %}
+</article>
+
+{% if tabs_below_product_gallery == true %}
+  {{ product_tabs }}
+{% endif %}
+
+{% if readmore_split[1] != blank and is_featured_product != true and is_product_modal != true %}
+  <div class="product-readmore rte" data-product-readmore>
+    {{ readmore_split[1] }}
+  </div>
+{% endif %}
+
+{% if product.metafields.global['2D-CAD-File'] or product.metafields.global['Product-Profile'] %}
+<div id="tab-2" class="tab-content rte">
+  <h2 class="table-title">CAD Files</h1>
+  <table class="custom-table">
+    <tr>
+      <th>File Type</th>
+      <th class="text-center">Download</th>
+    </tr>
+    {% if product.metafields.global['2D-CAD-File'] %}
+    <tr>
+      <td>2D CAD File{% comment %}{{ 'products.product.two_d_cad_file' | t }}{% endcomment %}</td>
+      <td class="text-center">
+        <a href="{{ product.metafields.global['2D-CAD-File'] }}" class="btn btn--small" target="blank">
+          Download{% comment %}{{ 'products.product.download' | t }}{% endcomment %}
+        </a>
+      </td>
+    </tr>
+    {% endif %}
+    {% if product.metafields.global['Product-Profile'] %}
+    <tr>
+      <td>Product Profile{% comment %}{{ 'products.product.three_d_cad_file' | t }}{% endcomment %}</td>
+      <td class="text-center">
+        <a href="{{ product.metafields.global['Product-Profile'] }}" class="btn btn--small" target="blank">
+          Download{% comment %}{{ 'products.product.download' | t }}{% endcomment %}
+        </a>
+      </td>
+    </tr>
+    {% endif %}
+  </table>
+</div>
+{% endif %}
+
+
+

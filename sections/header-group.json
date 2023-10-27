@@ -1,0 +1,109 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "static-announcement",
+      "settings": {
+        "show_announcement": true,
+        "homepage_announcement": false,
+        "announcement_text": "Receive 10% OFF your first order, when you join our mailing list. FREE DOMESTIC SHIPPING on Select Carvings",
+        "announcement_text_mobile": "Need help? Chat or Call Customer Care: M-F 8:00AM - 4:30PM CST at 1-800-558-0119.",
+        "announcement_link": "https:\/\/mouldings.com\/pages\/join-our-mailing-list",
+        "announcement_color": "#ffffff",
+        "announcement_background": "#626a81"
+      }
+    },
+    "utility-bar": {
+      "type": "static-utility-bar",
+      "settings": {
+        "use_full_width": false,
+        "background_color": "#f5f5f5",
+        "link_color": "#000000",
+        "link_hover_color": "#000000",
+        "border_color": "rgba(0,0,0,0)",
+        "menu": "header-top-nav",
+        "show_menu_mobile": true,
+        "mobile_layout": "below",
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "show_social_icons": true
+      }
+    },
+    "header": {
+      "type": "static-header",
+      "blocks": {
+        "mega_menu": {
+          "type": "meganav_images",
+          "settings": {
+            "meganav_trigger": "Brands",
+            "image_1": "shopify:\/\/shop_images\/tambour_4.jpg",
+            "text_1": "APPLY FOR TAMBOUR TRADE ACCOUNT",
+            "link_1": "https:\/\/mouldings.com\/pages\/tambour-trade-program",
+            "position_1": "last",
+            "size_1": "medium",
+            "text_2": "",
+            "link_2": "",
+            "position_2": "last",
+            "size_2": "medium"
+          }
+        },
+        "54f0b0a2-0e28-41b2-8424-bbe3c69eb204": {
+          "type": "meganav_sidenav",
+          "disabled": true,
+          "settings": {
+            "meganav_trigger": "Brands",
+            "submenu_layout": "product_images",
+            "image_aspect_ratio": "natural",
+            "image_crop": true
+          }
+        },
+        "mega_menu_2": {
+          "type": "meganav_images",
+          "disabled": true,
+          "settings": {
+            "meganav_trigger": "",
+            "text_1": "",
+            "link_1": "",
+            "position_1": "last",
+            "size_1": "medium",
+            "text_2": "",
+            "link_2": "",
+            "position_2": "last",
+            "size_2": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu",
+        "54f0b0a2-0e28-41b2-8424-bbe3c69eb204",
+        "mega_menu_2"
+      ],
+      "settings": {
+        "sticky_header": true,
+        "full_width_header": false,
+        "logo": "shopify:\/\/shop_images\/logo_c2250383-e6d0-4f93-9534-73806aff1506.png",
+        "logo_height": 100,
+        "logo_width": 250,
+        "filter_search_by": "disabled",
+        "enable_live_search": false,
+        "show_mobile_search_bar": false,
+        "enable_live_search_images": false,
+        "quick_links": "",
+        "menu": "mega-menu",
+        "secondary_menu": "",
+        "small_promo_heading": "Contact Us",
+        "small_promo_text": "<p>1-800-558-0119<\/p>",
+        "small_promo_text_mobile": "<p>1-800-558-0119<\/p>",
+        "small_promo_link": "",
+        "small_promo_icon": "icon-cell-phone",
+        "cart_icon": "icon-cart"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "utility-bar",
+    "header"
+  ]
+}

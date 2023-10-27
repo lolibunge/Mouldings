@@ -1,0 +1,163 @@
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "3e75946d-10ad-4adb-a787-866db135b9ed": {
+          "type": "sku",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": true
+          }
+        },
+        "c3816990-e0f1-400b-b91f-f665aaeddf5f": {
+          "type": "key_details",
+          "disabled": true,
+          "settings": {
+            "icon": "icon-information",
+            "title": "Trade Program Available for Millwork and Tambour Products",
+            "text": "<p>Join our Trade Programs for exclusive discounts, faster processing, and priority service. Use your personalized dashboard for efficient order handling, invoice management, and product updates. Streamline your checkout, manage orders with ease, and contact your dedicated sales representative for sample and quote support.<\/p>",
+            "text_color": "#1d1d1d",
+            "icon_color": "#1d1d1d",
+            "background_color": "#f5f3ed"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        },
+        "58e13ba2-9b83-420a-9791-4a56ca72f472": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_tabs_below_product_gallery": true,
+            "tab_heading_1": "Freight",
+            "tab_text_1": "<p>Upon completing your purchase, you'll be able to review the shipping and handling fees associated with your order. In the unlikely event that these costs surpass the displayed amount, we'll promptly inform you. Be aware that your state or province might mandate the application of taxes to shipping and handling fees.<\/p><p>At <strong>Mouldings.com.com<\/strong>, we employ a variety of shipping guidelines to calculate shipping and handling costs. These guidelines can be found below. For a precise estimate of the shipping charges on your order, kindly refer to your shopping cart.<\/p><p>Here's a breakdown of the shipping fees for other product lines we provide:<\/p><p><strong>Carvings<\/strong> - <strong>Enjoy FREE shipping via FedEx on all carvings within the 48 contiguous <\/strong>United States - exclusions apply for Trade Orders.<\/p><p><strong>Radius Corners<\/strong> - Shipping costs are determined by the destination, starting at a minimum of $45. Should the freight charges surpass $45, you'll receive a separate quote via email once your order is placed.<\/p><p><strong>Composition and Plaster Products:<\/strong> Shipping Charges are 15% of the total sale. These products are custom and non-returnable.<\/p><p><strong>Plaster Medallions: <\/strong>Shipping Charges are 15% of the total sale and a <strong>$75 Crate Fee. <\/strong>These products are custom and non-returnable.<\/p><p><strong>Urethane, Acoustic and Tambour Panels:<\/strong> Shipping Charges are 15% of the total sale. Shipping Charges or a minimum of $25.<\/p><p><strong>White River Poplar Mouldings<\/strong> - Shipping fees are based on the destination, with a $45 minimum charge. For LTL (less-than-truckload) orders, you'll be sent a separate quote through email. Due to FedEx Policy, products 96’’ [8’] & longer are subject to ground freight + additional l $45.00 \/ea pkg. Unless notified, WR will trim all mouldings to 95\". If you require 96\" [8’] & are willing to pay the upcharge add a note to your order.<\/p><p><strong>Global Deliveries - <\/strong>We are pleased to offer worldwide delivery for our online orders. However, please note that certain products, particularly larger items or those containing fuel or hazardous substances, may not be eligible for international shipping. To ensure compatibility, kindly review the product and shipping details while browsing. If your destination is not available during checkout, we are unable to deliver to your location.<\/p><p>Please be aware that tax and duty fees might be imposed by your country upon your order's arrival. These additional costs are your responsibility. <strong>Mouldings.com<\/strong> is proud to serve customers in most countries.<\/p><p><strong>International Shipping Rates: A minimum charge of 30%<\/strong> of the order applies to shipping fees. In the unlikely event that shipping and handling expenses surpass the indicated amount, we will promptly inform you.<\/p>",
+            "tab_heading_2": "Returns & Exchanges",
+            "tab_text_2": "<p>Products cannot be returned without prior approval and must have a Return Goods Authorization (RGA) number. Under the following circumstances, products may not be returned for credit:<\/p><ol><li>Are marked on<\/li><li>Are modified in any way<\/li><li>Have been exposed to excessive sun or moisture<\/li><li>Have sheetrock mud, primer, stain, \"job site damage\"<\/li><li>Returned 60 days after invoice purchase date<\/li><\/ol><p>Returns are F.O.B. Buyer and are subject to a 20% restocking charge. To receive credit for stock products, product must be received in re-sellable condition. <strong>Custom mouldings and custom woodcarvings are not returnable under any circumstances<\/strong>. If returned products are received damaged due to poor repackaging, no credit will be processed. It is imperative that items are not returned in their original packaging without a thorough inspection as more fill may be needed to boxes of carvings or additional wrapping for mouldings may be necessary to prevent return shipment damage. Please call  <a href=\"tel:18005580119\">1-800-558-0119<\/a> and speak to our Customer Service Representative to request an RGA.<\/p><p><strong>Art For Everyday: All products are  [ Final Sale and Non-Refundable ] <\/strong><\/p><p><em>*Claims for packages marked \"delivered\" must be filed after 5 days and before 15 days from the date the package was marked \"delivered.\" Claims for packages presumed to be lost (where the status is not \"delivered\") must be filed after 7 days (20 days for international) and within 30 days from the last checkpoint.<\/em><\/p>",
+            "tab_heading_3": "Contact Us",
+            "tab_text_3": "<p><strong>Monday through Friday, 8:00 a.m. — 5:00 p.m. Central Standard Time<\/strong><\/p><p><strong>Phone: <\/strong>800-558-0119<\/p><p><strong>email: <\/strong>sales@mouldings.com<\/p><p>1197 Happy Hollow Road<br\/>Fayetteville, Arkansas 72701 (<a href=\"https:\/\/whiteriver.com\/pages\/map-location\" title=\"Get Directions\">map<\/a>)<br\/>Toll Free: (800) 558-0119<br\/>Phone: (479) 442-6986<br\/>Fax: (479) 444-0406<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "3e75946d-10ad-4adb-a787-866db135b9ed",
+        "vendor",
+        "rating",
+        "price",
+        "description",
+        "form",
+        "c3816990-e0f1-400b-b91f-f665aaeddf5f",
+        "share",
+        "58e13ba2-9b83-420a-9791-4a56ca72f472"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "square",
+        "gallery_image_crop": false,
+        "gallery_thumbnail_position": "below",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "94428ac5-65a5-4c6e-ba33-09f325db0074": {
+      "type": "apps",
+      "blocks": {
+        "59d3df75-cc6d-4d43-915d-94237b658b9c": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "85547013-f98a-4ffd-ae88-db5042dc6bd6": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "productpage-721326",
+            "additional_classes": "",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "59d3df75-cc6d-4d43-915d-94237b658b9c",
+        "85547013-f98a-4ffd-ae88-db5042dc6bd6"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "disabled": true,
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "1685913407623fcdc6": {
+      "type": "apps",
+      "blocks": {
+        "8c6b0d0e-6341-4b24-a046-7717767c699b": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+            "maxwidth": 1200
+          }
+        }
+      },
+      "block_order": [
+        "8c6b0d0e-6341-4b24-a046-7717767c699b"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_padding": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "94428ac5-65a5-4c6e-ba33-09f325db0074",
+    "recommendations",
+    "recently-viewed",
+    "1685913407623fcdc6"
+  ]
+}

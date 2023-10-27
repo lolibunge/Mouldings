@@ -1,0 +1,29 @@
+{
+  "sections": {
+    "main": {
+      "type": "static-cart",
+      "settings": {
+      }
+    },
+    "d1563843-bb57-477e-be44-58af36e1c168": {
+      "type": "apps",
+      "blocks": {
+        "68fbc2ea-7288-44d4-b1a8-cf9e06b847c2": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "cartpage-287828"
+          }
+        }
+      },
+      "block_order": [
+        "68fbc2ea-7288-44d4-b1a8-cf9e06b847c2"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d1563843-bb57-477e-be44-58af36e1c168"
+  ]
+}

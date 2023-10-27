@@ -1,0 +1,960 @@
+{
+  "sections": {
+    "dynamic_slideshow": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "slide-3": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/mouldings_ceiling_6b6c3920-b035-4303-9b0c-7f885f7149a9.jpg",
+            "mobile_background_image": "shopify:\/\/shop_images\/amazing_ceiling.jpg",
+            "title": "White River Hardwoods",
+            "text": "Discover White River's range of 3,000+ Embellished Hardwood Mouldings and Handcarved Woodcarvings. Versatile and from eight curated collections, these products are perfect for adding a touch of elegance or creating impactful details in your interiors.",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "left",
+            "button_one_label": "Learn More",
+            "button_one_link": "https:\/\/mouldings.com\/pages\/white-river-hardwoods",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 28
+          }
+        },
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/new_size_tambour_3.png",
+            "mobile_background_image": "shopify:\/\/shop_images\/tambour_4.jpg",
+            "title": "Solid Wood Tambour Panels",
+            "text": "Experience the timeless elegance and unmatched versatility of our Hardwood Tambour Panels, the perfect solution for creating unique, durable and seamless designs in any space. Each panel is meticulously crafted, guaranteeing not just a visually pleasing design, but also a long-lasting addition to your décor.",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "right",
+            "button_one_label": "View Collection",
+            "button_one_link": "https:\/\/mouldings.com\/collections\/solid-wood-tambour-panel-collection",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 38
+          }
+        },
+        "7782f910-82bd-4629-b703-ce70695109a8": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/white_wash.png",
+            "title": "Acoustic Slat Wood Wall Panels",
+            "text": "Discover our premium, North American-crafted acoustic wall panels, designed with interior designers, architects, and DIY enthusiasts in mind. These exceptional wood strip panels offer superior acoustic performance while exuding a sleek, modern elegance.",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "left",
+            "button_one_label": "Learn More",
+            "button_one_link": "https:\/\/mouldings.com\/collections\/acoustic-slat-wood-wall-panels",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
+        "slide-2": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/hecolo-sanfrancisco-1.jpg",
+            "title": "Finium Wood Panels",
+            "text": "Discover Finium - Canadian craftsmanship revered globally. Their superior products have shaped countless designs in North America and Europe over 20 years. Finium offers distinctive, easy-to-install solutions for residential and commercial spaces.",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "left",
+            "button_one_label": "Learn More",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 34
+          }
+        },
+        "slide-4": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/farm_house_banner_Brown.jpg",
+            "mobile_background_image": "shopify:\/\/shop_images\/DESIGNS_OF_DISTINCTION.jpg",
+            "title": "Designs of Distinction",
+            "text": "Experience the luxurious touch of Designs of Distinction®, a leading brand in the world of interior design offering high-quality wood and metal components. Proudly made in America with top-tier materials, each item from their collection is meticulously designed, adding a captivating charm and enduring value to your space",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "right",
+            "button_one_label": "Explore Collection",
+            "button_one_link": "https:\/\/mouldings.com\/pages\/designsofdistinctionsinc",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 37
+          }
+        }
+      },
+      "block_order": [
+        "slide-3",
+        "slide-1",
+        "7782f910-82bd-4629-b703-ce70695109a8",
+        "slide-2",
+        "slide-4"
+      ],
+      "settings": {
+        "enable_autoplay": true,
+        "autoplay_duration": 9,
+        "slideshow_width": "content",
+        "slideshow_height": "large",
+        "slideshow_height_mobile": "x-large",
+        "slideshow_text_below_image": true
+      }
+    },
+    "b291375b-2d32-431a-9fad-a070bc022113": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "template--16713298116835__b291375b-2d32-431a-9fad-a070bc022113-highlight-1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Buy now, pay later",
+            "text": "<p>Choose Shop Pay at checkout<\/p>",
+            "link": "https:\/\/mouldings.com\/pages\/shop-pay"
+          }
+        },
+        "template--16713298116835__b291375b-2d32-431a-9fad-a070bc022113-highlight-2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>1 (800) 558-0119<\/p>",
+            "link": ""
+          }
+        },
+        "template--16713298116835__b291375b-2d32-431a-9fad-a070bc022113-highlight-3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat With Us",
+            "text": "<p>Talk to our team via chat<\/p>",
+            "link": ""
+          }
+        },
+        "template--16713298116835__b291375b-2d32-431a-9fad-a070bc022113-highlight-4": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "title": "Apply For a Trade Account",
+            "text": "<p>Buy 24\/7, 365 days a year<\/p>",
+            "link": "https:\/\/mouldings.com\/pages\/trade-application"
+          }
+        }
+      },
+      "block_order": [
+        "template--16713298116835__b291375b-2d32-431a-9fad-a070bc022113-highlight-1",
+        "template--16713298116835__b291375b-2d32-431a-9fad-a070bc022113-highlight-2",
+        "template--16713298116835__b291375b-2d32-431a-9fad-a070bc022113-highlight-3",
+        "template--16713298116835__b291375b-2d32-431a-9fad-a070bc022113-highlight-4"
+      ],
+      "settings": {
+        "section_spacing": true,
+        "section_width": "content-width",
+        "icon_layout": "center",
+        "color": "#4d4d4d",
+        "icon_color": "#626a81",
+        "background_color": "#f5f5f5",
+        "mobile_layout": "grid"
+      }
+    },
+    "d330d3ee-3367-4a23-9077-c54d6df5dd3b": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Ceiling_1.png",
+        "desktop_height": "800px",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "WELCOME TO MOULDINGS, CORBELS & MORE",
+        "subheading": "<p>Dive into the realm of Mouldings, Corbels and More, your ultimate sanctuary for the design aficionado and the passionate DIY virtuoso. We're the place where your unique vision for your next remodel or groundbreaking construction project can truly come alive.<br\/><br\/>Uncover a treasure trove of one-of-a-kind interior products, handpicked just for you. We've traversed both local and global markets, hunting down those elusive niche items that bring that extra dash of 'wow' to any space. From eclectic international finds to crafted local gems, we deliver them all right to your doorstep. <br\/><br\/>And here's the best part - not only are these pieces hand-curated, but they're also competitively priced! Even better, enjoy FREE shipping on the majority of our brand offerings. We are absolutely smitten by these products, and we believe you will fall head over heels for them too.<br\/><br\/>If you haven't yet made your way to our Mailing List, or aren't following our design journey on Facebook, Twitter, or Instagram, there's no better time than now. For regular doses of inspiration, feast your eyes on our Instagram feed. It showcases real-life applications of our products, transforming everyday spaces into breathtaking environments.<br\/><br\/>Don't just create, innovate with Mouldings, Corbels and More. Your design journey awaits!<\/p>",
+        "text_alignment": "left",
+        "button_label": "Explore Our Brands",
+        "button_link": "https:\/\/mouldings.com\/pages\/shop-by-brand"
+      }
+    },
+    "32f8459a-fd15-45f9-b5ac-cbdfc1b358eb": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "width": "full-width",
+        "title": "New Products",
+        "text": "<p>Discover the wow factor for your interiors with our latest offerings—<a href=\"https:\/\/mouldings.com\/collections\/solid-wood-tambour-panel-collection\" target=\"_blank\" title=\"https:\/\/mouldings.com\/collections\/solid-wood-tambour-panel-collection\">Tambour<\/a> and <a href=\"https:\/\/mouldings.com\/collections\/acoustic-slat-wood-wall-panels\" target=\"_blank\" title=\"https:\/\/mouldings.com\/collections\/acoustic-slat-wood-wall-panels\">Acoustic Panels,<\/a> <a href=\"https:\/\/mouldings.com\/collections\/luxor-collection\" target=\"_blank\" title=\"https:\/\/mouldings.com\/collections\/luxor-collection\">Plaster Medallions<\/a>, and <a href=\"https:\/\/mouldings.com\/collections\/custom-resin-millwork\" title=\"https:\/\/mouldings.com\/collections\/custom-resin-millwork\">Custom Resin Profiles. <\/a>More than just decor, these pieces elevate your spaces with depth and flair. Ready for next-level design? Our new collection turns your rooms into show-stoppers. Let's make those design dreams come true!<\/p>",
+        "heading_size": "large",
+        "text_alignment": "center"
+      }
+    },
+    "94651fcd-7f73-4793-9b08-2e8c128ef81e": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "template--16756349370595__94651fcd-7f73-4793-9b08-2e8c128ef81e-promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/med96X523.jpg",
+            "title": "Luxor Collection",
+            "text": "Introducing our 1-piece Free Edge from White River Hardwoods, crafted in the USA. More than a ceiling ornament, it transforms your ceiling into a captivating focal point.",
+            "color": "#ffffff",
+            "block_link": "https:\/\/mouldings.com\/collections\/luxor-collection",
+            "button_text": "Explore Medallions",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "template--16756349370595__94651fcd-7f73-4793-9b08-2e8c128ef81e-promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/walnut_bc2416b9-c496-4bea-85f2-d977730d7a95.png",
+            "title": "Acoustic Panels",
+            "text": "Enhance style and sound with our wooden slat panels. Ideal for pros or DIYers, they feature an eco-friendly acoustic felt and are easy to install.",
+            "color": "#ffffff",
+            "block_link": "https:\/\/mouldings.com\/collections\/acoustic-slat-wood-wall-panels",
+            "button_text": "Explore Acoustic Panels",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "template--16756349370595__94651fcd-7f73-4793-9b08-2e8c128ef81e-promotion-3": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tambour_4_ec8061d2-eb7c-4fd4-ac46-7b888cf9aa27.jpg",
+            "title": "Tambour Panels",
+            "text": "Enhance interiors with White River's Tambour Panels. These solid wood panels with flexible backing fit curves and corners effortlessly.",
+            "color": "#ffffff",
+            "block_link": "https:\/\/mouldings.com\/collections\/solid-wood-tambour-panel-collection",
+            "button_text": "Explore Tambour Panels",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--16756349370595__94651fcd-7f73-4793-9b08-2e8c128ef81e-promotion-1",
+        "template--16756349370595__94651fcd-7f73-4793-9b08-2e8c128ef81e-promotion-2",
+        "template--16756349370595__94651fcd-7f73-4793-9b08-2e8c128ef81e-promotion-3"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "large",
+        "section_columns": 3,
+        "text_alignment": "top-left"
+      }
+    },
+    "3e51f63b-94dd-461f-ab76-0c1198766dae": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "width": "full-width",
+        "title": "Hardwood Mouldings and Carvings",
+        "text": "<p>Dive into an unparalleled collection of mouldings and carvings featuring the classic elegance of White River, the innovative Designs of Distinction, and the everyday artistry of Art for Everyday. These aren't just mouldings; they're statements of style and craftsmanship, all available in one destination. Shop with us and transform your space with the pinnacle of moulding design.<\/p>",
+        "heading_size": "large",
+        "text_alignment": "center"
+      }
+    },
+    "3de42505-70e7-4438-b776-e43167bda13a": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "template--16756349370595__3de42505-70e7-4438-b776-e43167bda13a-promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mouldings_Interior_21.jpg",
+            "title": "White river hardwoods",
+            "text": "White River Hardwoods mouldings and carvings epitomize the pinnacle of craftsmanship, offering an unparalleled fusion of elegance and durability. Every piece reflects a legacy of quality, adding timeless sophistication to any interior.",
+            "color": "#ffffff",
+            "block_link": "https:\/\/mouldings.com\/pages\/mon-reale",
+            "button_text": "Explore Mon Reale Mouldings",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 33
+          }
+        },
+        "template--16756349370595__3de42505-70e7-4438-b776-e43167bda13a-promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BROWN.JPG",
+            "title": "Designs of Distinction",
+            "text": "Designs of Distinction mouldings and carvings combine innovation with classic style. Each piece blends function with unique artistry",
+            "color": "#ffffff",
+            "block_link": "https:\/\/mouldings.com\/pages\/designsofdistinctionsinc",
+            "button_text": "Explore Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 45
+          }
+        },
+        "template--16756349370595__3de42505-70e7-4438-b776-e43167bda13a-promotion-3": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AFE.jpg",
+            "title": "Art for Everyday",
+            "text": "Art for Everyday offerings enhance living spaces with detailed carvings. Each item showcases craftsmanship, adding artistic elegance and beauty to rooms.",
+            "color": "#ffffff",
+            "block_link": "https:\/\/mouldings.com\/pages\/artforeverydayinc",
+            "button_text": "Discover collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--16756349370595__3de42505-70e7-4438-b776-e43167bda13a-promotion-1",
+        "template--16756349370595__3de42505-70e7-4438-b776-e43167bda13a-promotion-2",
+        "template--16756349370595__3de42505-70e7-4438-b776-e43167bda13a-promotion-3"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "large",
+        "text_alignment": "bottom-left",
+        "maintain_aspect_ratio": true,
+        "compress_blocks": false
+      }
+    },
+    "2ea081d5-0b55-49f9-82b4-b0592723947d": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "width": "full-width",
+        "title": "Tambour, Acoustic  & Decorative Panels",
+        "text": "<p>Explore design flexibility with our Tambour, Acoustic and Decorative Panels. Our Tambour Panels, available in woods like Paint Grade and White Oak, bend easily around curves and can be painted or stained. Pair these with our Acoustic or Decorative Panels, which offer style and sound control through wooden slats and eco-friendly felt, for a seamless, easy-to-install solution perfect for any space.<\/p>",
+        "heading_size": "large",
+        "text_alignment": "center"
+      }
+    },
+    "766ba6d0-39ed-4921-b5ce-ef187590903c": {
+      "type": "pxs-image-with-text-overlay",
+      "settings": {
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/tambour_hero.jpg",
+        "title": "Tambour Wall Panels",
+        "text": "<p>Ideal for hospitality, commercial, or residential projects, our Tambour  Panels excel in applications such as full walls, accent walls, bar fronts, wainscots, and more.<\/p>",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 50,
+        "link": "https:\/\/mouldings.com\/collections\/solid-wood-tambour-panel-collection",
+        "button_text": "Shop Collection"
+      }
+    },
+    "dynamic_featured_collection": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "view-all-card": {
+          "type": "view_all_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/surface_solutions_1_4ac0103e-6b9b-44e5-9936-9b5e9e4e022e.jpg",
+            "text_alignment": "center-center",
+            "pre_heading": "View all",
+            "heading": "Collection",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "view-all-card"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "layout": "slideshow",
+        "collection": "solid-wood-tambour-panel-collection",
+        "product_count": 4,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_highlights_banner": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight-1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-credit-card",
+            "title": "Buy now, pay later",
+            "text": "<p>Choose Shop Pay at checkout<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>1-800-558-0119<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat With Us",
+            "text": "<p>Talk to our team via chat<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-4": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-pin",
+            "title": "Join Our Email Club",
+            "text": "<p>Get exclusive deals<\/p>",
+            "link": "https:\/\/mouldings.com\/pages\/join-our-mailing-list"
+          }
+        }
+      },
+      "block_order": [
+        "highlight-1",
+        "highlight-2",
+        "highlight-3",
+        "highlight-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_spacing": true,
+        "section_width": "content-width",
+        "icon_layout": "center",
+        "color": "#1d1d1d",
+        "icon_color": "#626a81",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "grid"
+      }
+    },
+    "dynamic_promo_mosaic": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion-4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/new_size_tambour_3.png",
+            "title": "Tambour Trade Program",
+            "text": "Join our Tambour Trade Program today and gain access to a world of exceptional benefits designed exclusively for our valued trade customers like you.",
+            "color": "#ffffff",
+            "block_link": "https:\/\/mouldings.com\/pages\/tambour-trade-program",
+            "button_text": "Apply Today",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 36
+          }
+        },
+        "promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhiteRiverBanner02.jpg",
+            "title": "Panel Visualizer",
+            "text": "Want to try before you buy? With our new visualizer tool, you can sample our Tambour Panels in a room to get an idea of what they will look like in your home!",
+            "color": "#000000",
+            "block_link": "https:\/\/wizart.ai\/visualizer\/mouldings_VZEQ",
+            "button_text": "Launch Panel Visualizer",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "#ffffff",
+            "opacity": 50
+          }
+        },
+        "promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Finium_thumbnail_megaa_menu.png",
+            "title": "Decorative Wall Panels",
+            "text": "Crafted from premium hardwood, FriendlyWall® panels are designed to captivate designers, architects, and decor enthusiasts. These eco-friendly panels can be installed quickly and enhance any room's value.",
+            "color": "#ffffff",
+            "block_link": "https:\/\/mouldings.com\/pages\/finiumfriendlywall",
+            "button_text": "Learn More",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 25
+          }
+        },
+        "promotion-3": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHITE_OAK.png",
+            "title": "Acoustic Slat Wood Wall Panels",
+            "text": "Introducing our premium North American-made acoustic wall panel collection, featuring slat panel designs crafted explicitly for interior designers, architects, and DIY enthusiasts.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/collections\/acoustic-slat-wood-wall-panels",
+            "button_text": "Shop Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion-4",
+        "promotion-1",
+        "promotion-2",
+        "promotion-3"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "medium",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": true,
+        "compress_blocks": false
+      }
+    },
+    "dynamic_featured_product": {
+      "type": "dynamic-featured-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "view-product-link": {
+          "type": "view-product-link",
+          "settings": {
+            "text": "View full details"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "view-product-link"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "",
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": false,
+        "gallery_thumbnail_position": "left",
+        "gallery_video_autoplay": false,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "replace"
+      }
+    },
+    "dynamic_collection_list": {
+      "type": "dynamic-collection-list",
+      "blocks": {
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "embellished-hardwood-mouldings",
+            "image": "shopify:\/\/shop_images\/Mouldings_Interior_1.jpg",
+            "title": ""
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "shop-all-traditional-mouldings",
+            "image": "shopify:\/\/shop_images\/Evansville_1.jpg",
+            "title": "Traditional Hardwood Mouldings"
+          }
+        },
+        "collection-6": {
+          "type": "collection",
+          "settings": {
+            "collection": "carved-corbels",
+            "image": "shopify:\/\/shop_images\/corbels_new_products.png",
+            "title": "Traditional Hardwood Corbels"
+          }
+        },
+        "collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "acoustic-slat-wood-wall-panels",
+            "image": "shopify:\/\/shop_images\/Gray.png",
+            "title": ""
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "solid-wood-tambour-panel-collection",
+            "image": "shopify:\/\/shop_images\/tambour_4_ec8061d2-eb7c-4fd4-ac46-7b888cf9aa27.jpg",
+            "title": "Solid Wood Tambour Panels"
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "radius-corners",
+            "image": "shopify:\/\/shop_images\/radius_corner.jpg",
+            "title": "MDF Radius Corners for Cabinetry"
+          }
+        }
+      },
+      "block_order": [
+        "collection-3",
+        "collection-4",
+        "collection-6",
+        "collection-5",
+        "collection-1",
+        "collection-2"
+      ],
+      "settings": {
+        "title": "Featured Collections",
+        "thumbnail_columns_desktop": 6,
+        "thumbnail_columns_mobile": 3,
+        "image-crop": "circle",
+        "cta_label": "",
+        "cta_link": "",
+        "cta_button_style": "secondary"
+      }
+    },
+    "e465f80d-ef82-4b6c-8fa1-db2af56e97c0": {
+      "type": "pxs-image-with-text-overlay",
+      "settings": {
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/radius_corners_2_8d48767a-a28d-41b9-9999-a535f962ee37.jpg",
+        "title": "MDF Radius Corners for Fixtures, Cabinetry & Furniture",
+        "text": "<p>The MDF Radius Corner Moulding for Cabinets, Furniture & Fixtures are a cost effective and versatile material and are designed to allow cabinet fabricators to include smooth, consistent radius corners in their units. Manufactured in the U.S.A.<\/p>",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 50,
+        "link": "shopify:\/\/collections\/radius-corners",
+        "button_text": "Shop Collection"
+      }
+    },
+    "1a1131ef-b2a5-4b62-8ee6-57aafe5da530": {
+      "type": "dynamic-rich-text",
+      "disabled": true,
+      "settings": {
+        "width": "full-width",
+        "title": "Featuring mouldings from White River, Designs of Distinction, and Art for Everyday",
+        "text": "<p>Dive into an unparalleled collection of mouldings featuring the classic elegance of White River, the innovative Designs of Distinction, and the everyday artistry of Art for Everyday. These aren't just mouldings; they're statements of style and craftsmanship, all available in one destination. Shop with us and transform your space with the pinnacle of moulding design.<\/p>",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
+    "c964e7da-249d-49b5-aaef-c297478c5797": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "template--16756349370595__c964e7da-249d-49b5-aaef-c297478c5797-promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MEGA_MOULDINGS.png",
+            "title": "White River Hardwoods",
+            "text": "White River Hardwoods mouldings epitomize the pinnacle of craftsmanship, offering an unparalleled fusion of elegance and durability. Every piece reflects a legacy of quality, adding timeless sophistication to any interior.",
+            "color": "#ffffff",
+            "block_link": "https:\/\/mouldings.com\/pages\/white-river-hardwoods",
+            "button_text": "Explore Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "template--16756349370595__c964e7da-249d-49b5-aaef-c297478c5797-promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mouldings_Ceiling.jpg",
+            "title": "Designs of Distinction",
+            "text": "Designs of Distinction mouldings blend innovation with classic appeal, offering distinctive details that elevate any space. Each piece stands as a testament to superior design, seamlessly merging functionality with unmatched artistry.",
+            "color": "#ffffff",
+            "block_link": "https:\/\/mouldings.com\/pages\/designsofdistinctionsinc",
+            "button_text": "Explore Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "template--16756349370595__c964e7da-249d-49b5-aaef-c297478c5797-promotion-3": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/art_for_everyday_26c89c02-fb6e-4e78-ae2e-90d1c79a3312.png",
+            "title": "Art For Everyday",
+            "text": "Art for Everyday mouldings bring daily living spaces to life with their intricate carvings and meticulous attention to detail. Each piece is a testament to craftsmanship, infusing every room with a touch of artistic elegance and timeless beauty.",
+            "color": "#ffffff",
+            "block_link": "https:\/\/mouldings.com\/pages\/artforeverydayinc",
+            "button_text": "Explore Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--16756349370595__c964e7da-249d-49b5-aaef-c297478c5797-promotion-1",
+        "template--16756349370595__c964e7da-249d-49b5-aaef-c297478c5797-promotion-2",
+        "template--16756349370595__c964e7da-249d-49b5-aaef-c297478c5797-promotion-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "section_height": "large",
+        "section_columns": 3,
+        "text_alignment": "top-left"
+      }
+    },
+    "dynamic_featured_collection-2": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "title-card": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/walnut_bc2416b9-c496-4bea-85f2-d977730d7a95.png",
+            "horizontal_size": "3",
+            "vertical_size": "2",
+            "text_alignment": "center-center",
+            "pre_heading": "Featured",
+            "heading": "Collection",
+            "text_color": "#ffffff",
+            "cta_label": "See more",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "title-card"
+      ],
+      "settings": {
+        "title": "Acoustic Slat Wood Panels",
+        "layout": "grid",
+        "collection": "acoustic-slat-wood-wall-panels",
+        "product_count": 9,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_shoppable_image": {
+      "type": "dynamic-shoppable-image",
+      "blocks": {
+        "hotspot-1": {
+          "type": "hotspot",
+          "settings": {
+            "product": "extra-large-scroll-18w-x-6-1-2h-x-3-4d-maple",
+            "x_axis": 24,
+            "y_axis": 83
+          }
+        },
+        "hotspot-2": {
+          "type": "hotspot",
+          "settings": {
+            "product": "x-large-acanthus-leaf-repeats-10-1-4-8-1-2-w-x-1-1-4-d-poplar",
+            "x_axis": 64,
+            "y_axis": 92
+          }
+        },
+        "hotspot-3": {
+          "type": "hotspot",
+          "settings": {
+            "product": "extra-large-corinth-capital-8w-x-8h-x-2-1-4d-lindenwood",
+            "x_axis": 77,
+            "y_axis": 81
+          }
+        },
+        "hotspot-4": {
+          "type": "hotspot",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "x_axis": 15,
+            "y_axis": 19
+          }
+        },
+        "hotspot-5": {
+          "type": "hotspot",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "x_axis": 87,
+            "y_axis": 48
+          }
+        }
+      },
+      "block_order": [
+        "hotspot-1",
+        "hotspot-2",
+        "hotspot-3",
+        "hotspot-4",
+        "hotspot-5"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Shop This Look From White River Hardwoods",
+        "image": "shopify:\/\/shop_images\/shoppabable.jpg",
+        "image_width": "half",
+        "link_text": "View product",
+        "textbox_title": "White River Hardwoods",
+        "textbox_subheading": "<p>Step into a timeless sanctuary, where classic aesthetics meet top-notch quality. This traditional kitchen, adorned with the exquisite millwork of White River Hardwoods, is where homely charm meets enduring elegance.<\/p>",
+        "textbox_button_label": "Explore the Collection",
+        "textbox_button_link": "https:\/\/mouldings.com\/pages\/white-river-hardwoods",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "center",
+        "textbox_text_position": "left"
+      }
+    },
+    "dynamic_blog_posts": {
+      "type": "dynamic-blog-posts",
+      "settings": {
+        "title": "Featured Blog Posts",
+        "blog": "news",
+        "show_date": false,
+        "show_author": true,
+        "show_excerpt": true
+      }
+    },
+    "dynamic_testimonials": {
+      "type": "dynamic-testimonials",
+      "blocks": {
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        },
+        "testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        },
+        "testimonial-4": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        },
+        "testimonial-5": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        },
+        "testimonial-6": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-1",
+        "testimonial-2",
+        "testimonial-3",
+        "testimonial-4",
+        "testimonial-5",
+        "testimonial-6"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Testimonials",
+        "image_crop": "circle",
+        "text_size": "large"
+      }
+    },
+    "1693590108e799d14d": {
+      "type": "apps",
+      "blocks": {
+        "708d08df-0417-41b3-b59d-94b20a47c78c": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "homepage-888761",
+            "additional_classes": "",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "708d08df-0417-41b3-b59d-94b20a47c78c"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "dynamic_search": {
+      "type": "dynamic-search",
+      "settings": {
+        "title": "Explore Our Brands Collections",
+        "text": "We have over 4,000 products from five brands in multiple wood species and materials. Use our product search bar to find what you are looking for quickly.",
+        "placeholder": "What are you looking for?",
+        "filter_search_by": "disabled",
+        "enable_live_search": false,
+        "enable_live_search_images": false,
+        "show-overlay": true,
+        "color": "#ffffff",
+        "background": "#000000",
+        "opacity": 50
+      }
+    }
+  },
+  "order": [
+    "dynamic_slideshow",
+    "b291375b-2d32-431a-9fad-a070bc022113",
+    "d330d3ee-3367-4a23-9077-c54d6df5dd3b",
+    "32f8459a-fd15-45f9-b5ac-cbdfc1b358eb",
+    "94651fcd-7f73-4793-9b08-2e8c128ef81e",
+    "3e51f63b-94dd-461f-ab76-0c1198766dae",
+    "3de42505-70e7-4438-b776-e43167bda13a",
+    "2ea081d5-0b55-49f9-82b4-b0592723947d",
+    "766ba6d0-39ed-4921-b5ce-ef187590903c",
+    "dynamic_featured_collection",
+    "dynamic_highlights_banner",
+    "dynamic_promo_mosaic",
+    "dynamic_featured_product",
+    "dynamic_collection_list",
+    "e465f80d-ef82-4b6c-8fa1-db2af56e97c0",
+    "1a1131ef-b2a5-4b62-8ee6-57aafe5da530",
+    "c964e7da-249d-49b5-aaef-c297478c5797",
+    "dynamic_featured_collection-2",
+    "dynamic_shoppable_image",
+    "dynamic_blog_posts",
+    "dynamic_testimonials",
+    "1693590108e799d14d",
+    "dynamic_search"
+  ]
+}

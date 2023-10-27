@@ -1,0 +1,57 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "static-footer",
+      "blocks": {
+        "social_accounts": {
+          "type": "social_accounts",
+          "settings": {
+          }
+        },
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "menu": "footer-shop-now"
+          }
+        },
+        "menu_2": {
+          "type": "menu",
+          "settings": {
+            "menu": "footer-my-account"
+          }
+        },
+        "menu_3": {
+          "type": "menu",
+          "settings": {
+            "menu": "footer-customer-help"
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Subscribe",
+            "text": "<p>Join our mailing list.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "social_accounts",
+        "menu",
+        "menu_2",
+        "menu_3",
+        "newsletter"
+      ],
+      "settings": {
+        "payment_icons": true,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "additional_menu": "footer"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
