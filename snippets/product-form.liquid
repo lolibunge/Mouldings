@@ -244,27 +244,36 @@
 
   <div class="product-form--atc">
     <div class="product-form__action-wrapper">
-	<a class="product-form--contact-button" href="mailto:sales@whiteriver.com?subject=Resin%20Order%20Inquiry"><span class="" >Email to Order</span></a>
+      <div class="product-form--atc-qty form-fields--qty" data-quantity-wrapper>
+        <div class="form-field form-field--qty-select">
+          <div class="form-field-select-wrapper">
+            <!-- <a class="product-form--contact-button" href="mailto:sales@whiteriver.com?subject=Resin%20Order%20Inquiry"><span class="" >Email to Order</span></a> -->
+            <!-- QUANTITY or LINEAR FEET SELECT BASE ON TAGS -->
+                {% if product.tags contains 'Collections:Mon Reale Mouldings' or product.tags contains 'Custom' or product.tags contains 'Collections:Ornamentally Embossed' or product.tags contains 'Collections:Traditional Mouldings' %}
+                  {%
+                  render 'quantity-selector',
+                  context: 'product',
+                  label: 'Linear Feet',
+                %}
+            {% else  %}             
+                  {%
+                  render 'quantity-selector',
+                  context: 'product',
+                %}
+            {% endif %}
+          <!-- END OF quantity or linear feet SELECT BASE ON TAGS -->   
+          </div>
+        </div>
+      </div>
+ 
+ <a class="product-form--contact-button" href="https://mouldings.com/pages/resin-mouldings"><span class="" >Email to Order</span></a>
 
-  <!-- QUANTITY or LINEAR FEET SELECT BASE ON TAGS -->
-      {% if product.tags contains 'Collections:Mon Reale Mouldings'
-                or product.tags contains 'Custom'
-                or product.tags contains 'Collections:Ornamentally Embossed'
-                or product.tags contains 'Collections:Traditional Mouldings'
-              %}
-        {%
-        render 'quantity-selector',
-        context: 'product',
-        label: 'Linear Feet',
-      %}
-  {% else  %}             
-        {%
-        render 'quantity-selector',
-        context: 'product',
-      %}
-   {% endif %}
- <!-- END OF quantity or linear feet SELECT BASE ON TAGS -->   
-      
+ {% if collection.title contains 'LCD' %}
+ <!-- Remove add to cart button -->
+ <a class="product-form--email-us" href="https://mouldings.com/pages/lcd-mouldings-form"><span class="" >Email to Order</span></a>
+  <a class="product-form--contact-us-button" href="https://mouldings.com/pages/contact-us-to-purchase-mouldings-corbels-and-more-products"><button class="ContactUs__BTN" type="button">Contact Us </button></a>
+
+ {% else %}
       <button
         class="
           product-form--atc-button
@@ -297,11 +306,20 @@
         </span>
       </button>
 
+      <a class="product-form--contact-us-button" href="https://mouldings.com/pages/contact-us-to-purchase-mouldings-corbels-and-more-products"><button class="ContactUs__BTN" type="button">Contact Us </button></a>
+
       {% if show_dynamic_checkout_button %}
         {{ form | payment_button }}
       {% endif %}
+      
+
+      {% endif %}
+
+
     </div>
   </div>
+
+  
 
   <div data-payment-terms-reference style="display: none;">
     {{ form | payment_terms }}
@@ -317,31 +335,31 @@
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const $contactButton = document.querySelector('.product-form--contact-button');
+    $contactButton.style.display = 'none';
     const $atcButton = document.querySelector('.product-form--atc-button');
-    const variantSelect = document.querySelector('.options-selection__input-select');
+    //const variantSelect = document.querySelector('.options-selection__input-select');
     const $quantitySelector = document.querySelector('.quantity-selector');
 	const $payButton = document.querySelector('.shopify-payment-button');
-
-    const toggleButtonsByValue = (value) => {
-      if (value === 'Resin') {
+  const emailUsButton = document.querySelector('.product-form--email-us');
+  emailUsButton.style.display = 'block';
+  
+  const selectElement = document.querySelector('.options-selection__input-select');
+    selectElement.addEventListener('change', function(event) {
+      const selectedOption = event.target.value;
+      if (selectedOption === 'Resin') {
         $contactButton.style.display = 'block';
+        emailUsButton.style.display = 'none';
         $atcButton.style.display = 'none';
-		$quantitySelector.style.display = 'none';
-		$payButton.style.display = 'none';
+        $quantitySelector.style.display = 'none';
+        $payButton.style.display = 'none';
       } else {
         $contactButton.style.display = 'none';
+        emailUsButton.style.display = 'block';
         $atcButton.style.display = 'block';
-		$quantitySelector.style.display = 'block';
-		$payButton.style.display = 'block';
+        $quantitySelector.style.display = 'block';
+        $payButton.style.display = 'block';
       }
-    }
-
-    variantSelect.addEventListener('change', (ev) => {
-      toggleButtonsByValue(ev.target.value);
     });
 
-    toggleButtonsByValue(variantSelect.value);
   });
 </script>
-
-
