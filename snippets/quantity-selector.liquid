@@ -22,7 +22,11 @@
       {%- endif -%}
     "
   >
-    {{- 'general.general.quantity' | t -}}
+  {%- if product.tags contains 'Collections:Mon Reale Mouldings' or product.tags contains 'Custom' or product.tags contains 'Collections:Ornamentally Embossed' or product.tags contains 'Collections:Traditional Mouldings' -%}
+  Linear Feet
+  {%- else -%}
+  {{- 'general.general.quantity' | t -}}
+  {%- endif -%}
   </label>
 
   <div class="quantity-selector__wrapper">
